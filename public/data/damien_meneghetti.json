@@ -1,0 +1,141 @@
+{
+  "lastname": "MENEGHETTI",
+  "firstname": "Damien",
+  "profil_path": "jean_paul_olive.png",
+  "profession": "Développeur Fullstack",
+  "location": "11 Rue Albert 1er - Vallée des Colons - 98800 Nouméa",
+  "email": "damien.meneghetti@deveo.nc",
+  "phoneWithIndicator": "+687959112",
+  "phone": "95 91 12",
+  "social": [
+    {
+      "href": "https://github.com/DM",
+      "description": "DM",
+      "icon": "fa-github",
+      "iconPack": "fab"
+    },
+    {
+      "href": "https://www.linkedin.com/in/DM/",
+      "description": "Damien MENEGHETTI",
+      "icon": "fa-linkedin",
+      "iconPack": "fab"
+    }
+  ],
+  "profile": "zqdqzdqzdzqdqzd qzd qzdq dqzd qzd qzd qzdqzdqz....",
+  "skills": [
+    {
+      "name": "Javascript",
+      "level": "100%"
+    },
+    {
+      "name": "Java",
+      "level": "95%"
+    },
+    {
+      "name": "Angular",
+      "level": "95%"
+    },
+    {
+      "name": "HTML 5",
+      "level": "95%"
+    },
+    {
+      "name": "CSS 3",
+      "level": "85%"
+    },
+    {
+      "name": "Spring Boot",
+      "level": "85%"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "90%"
+    },
+    {
+      "name": "Github",
+      "level": "90%"
+    },
+    {
+      "name": "Quarkus",
+      "level": "60%"
+    }
+  ],
+  "languages": [
+    {
+      "description": "Français",
+      "level": 5
+    },
+    {
+      "description": "Anglais",
+      "level": 5
+    },
+    {
+      "description": "Allemand",
+      "level": 3
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Développeur Fullstack - DEVEO",
+      "company": "OPT | Service bancaire - Nouméa",
+      "year": "Janvier 2024 - Maintenant",
+      "description": "Projet Mana</br>- Etude de documentation des API du prestataire de service NativIP</br>- Intégration de leurs API afin de pouvoir envoyer des SMS à l'international depuis les différentes applications de l'OPT"
+    },
+    {
+      "title": "Team leader / Developpeur Fullstack - DEVEO",
+      "company": "DITTT | Service blabla - Nouméa",
+      "year": "Juin 2022 - Mars 2023",
+      "description": "Projet PICO2</br>Projet de refonte de l'application de gestion des permis de conduire</br>- Mise en place de l'architecture logiciel et encadrement de l'équipe de développement</br>- Développement de nouvelles fonctionnalités dans l'application de gestion des Permis de conduire de la DITTT</br>- 2tude, conception et développement de l'application dans une équipe de 4/5 développeurs et 1 Product Owner"
+    },
+    {
+      "title": "Ingénieur d'étude et développement - DEVEO",
+      "company": "OPT | Service postal - Nouméa",
+      "year": "Novembre 2021 - Juin 2022",
+      "description": "Projet BP Web</br>Refonte iso-fonctionnelle d'une application de gestion de parc de boîte postale</br>- Travail en mode AGILE SCRUM</br>- Migration des données de la base DB2/400 vers une base PostgreSQL</br>- Etude, conception et développement"
+    }
+  ],
+  "educations": [
+    {
+      "title": "DIPLOME D’INGENIEUR EN INFORMATIQUE, GENIE LOGICIEL",
+      "studies": "Ecole Supérieure d’Ingénieurs de Luminy - Marseille - France",
+      "year": "2003 - 2006"
+    },
+    {
+      "title": "CPGE, MATHEMATIQUES ET PHYSIQUE",
+      "studies": "Lycée Clémenceau - Reims - France",
+      "year": "2001 - 2003"
+    }
+  ],
+  "interests": [
+    {
+      "title": "Plongée N2",
+      "icon": "fa-water",
+      "iconPack": "fas"
+    },
+    {
+      "title": "Photo",
+      "icon": "fa-camera",
+      "iconPack": "fas"
+    },
+    {
+      "title": "Movies/Series",
+      "icon": "fa-film",
+      "iconPack": "fas"
+    },
+    {
+      "title": "Padel",
+      "icon": "fa-table-tennis-paddle-ball",
+      "iconPack": "fas"
+    },
+    {
+      "title": "Program",
+      "icon": "fa-code",
+      "iconPack": "fas"
+    },
+    {
+      "title": "Running",
+      "icon": "fa-person-running",
+      "iconPack": "fas"
+    }
+  ]
+}

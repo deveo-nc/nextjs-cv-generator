@@ -1,0 +1,121 @@
+{
+  "lastname": "RAIS",
+  "firstname": "Abdelkrim",
+  "profil_path": "jean_paul_olive.png",
+  "profession": "Ingénieur d'études et de développement / Chef de projets",
+  "location": "dzqdqzddqzd - 98800 Nouméa",
+  "email": "arais@deveo.nc",
+  "phoneWithIndicator": "+687526991",
+  "phone": "52 69 91",
+  "social": [
+    {
+      "href": "https://github.com/arais",
+      "description": "arais",
+      "icon": "github",
+      "iconPack": "fab"
+    },
+    {
+      "href": "https://www.linkedin.com/in/arais/",
+      "description": "Abdelkrim RAIS",
+      "icon": "linkedin",
+      "iconPack": "fab"
+    }
+  ],
+  "profile": "dqzdqzdq  dqz qdd zqd qz d zq....",
+  "skills": [
+    {
+      "name": "Javascript",
+      "level": "100%"
+    },
+    {
+      "name": "Java",
+      "level": "95%"
+    },
+    {
+      "name": "Angular",
+      "level": "95%"
+    },
+    {
+      "name": "HTML 5",
+      "level": "95%"
+    },
+    {
+      "name": "CSS 3",
+      "level": "85%"
+    },
+    {
+      "name": "Spring Boot",
+      "level": "85%"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "90%"
+    },
+    {
+      "name": "Github",
+      "level": "90%"
+    }
+  ],
+  "languages": [
+    {
+      "description": "Français",
+      "level": 5
+    },
+    {
+      "description": "Arabe",
+      "level": 5
+    },
+    {
+      "description": "Anglais",
+      "level": 4
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Ingénieur d'études et développement / Responsable TMA - DEVEO",
+      "company": "OPT | Service postal - Nouméa",
+      "year": "Juin 2019 - Maintenant",
+      "description": "Projet SIDO</br>TMA de l'application SIDO (Suivi Informatisé Des Objets)</br>- dzqdqzdzq</br>- dqzdqdzq</br>- dqzdqzdqzd"
+    },
+    {
+      "title": "Developpeur Fullstack - DEVEO",
+      "company": "Province Sud | DSIN - Nouméa",
+      "year": "Septembre 2018 - Juin 2019",
+      "description": "Projet BOOST</br>- dzqdqzd</br>- dzqdqzd</br>- dqzdqzdzq"
+    }
+  ],
+  "educations": [
+    {
+      "title": "DEA Informatique de l’image et du langage",
+      "studies": "INPT, Institut National Polytechnique de Toulouse - Toulouse - France",
+      "year": "2002 - 2004"
+    },
+    {
+      "title": "Ingénieur Informatique",
+      "studies": "Université d'ORAN - Oran - Algérie",
+      "year": "1999 - 2002"
+    }
+  ],
+  "interests": [
+    {
+      "title": "Movies/Series",
+      "icon": "fa-film",
+      "iconPack": "fas"
+    },
+    {
+      "title": "Padel",
+      "icon": "fa-table-tennis-paddle-ball",
+      "iconPack": "fas"
+    },
+    {
+      "title": "Program",
+      "icon": "fa-code",
+      "iconPack": "fas"
+    },
+    {
+      "title": "Running",
+      "icon": "fa-person-running",
+      "iconPack": "fas"
+    }
+  ]
+}

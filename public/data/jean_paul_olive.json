@@ -1,0 +1,127 @@
+{
+  "lastname": "OLIVE",
+  "firstname": "Jean-Paul",
+  "profil_path": "jean_paul_olive.png",
+  "profession": "Développeur Fullstack",
+  "location": "blabla - 98800 yahoué",
+  "email": "jean-paul.olive@deveo.nc",
+  "phoneWithIndicator": "+687790723",
+  "phone": "79 07 23",
+  "social": [
+    {
+      "href": "https://github.com/JP",
+      "description": "JP",
+      "icon": "fa-github",
+      "iconPack": "fab"
+    },
+    {
+      "href": "https://www.linkedin.com/in/JP/",
+      "description": "Jean-Paul OLIVE",
+      "icon": "fa-linkedin",
+      "iconPack": "fab"
+    }
+  ],
+  "profile": "Blablabl ablaadz...",
+  "skills": [
+    {
+      "name": "Javascript",
+      "level": "100%"
+    },
+    {
+      "name": "Java",
+      "level": "95%"
+    },
+    {
+      "name": "Angular",
+      "level": "95%"
+    },
+    {
+      "name": "HTML 5",
+      "level": "95%"
+    },
+    {
+      "name": "CSS 3",
+      "level": "85%"
+    },
+    {
+      "name": "Spring Boot",
+      "level": "85%"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "90%"
+    },
+    {
+      "name": "Github",
+      "level": "90%"
+    },
+    {
+      "name": "Quarkus",
+      "level": "60%"
+    }
+  ],
+  "languages": [
+    {
+      "description": "Français",
+      "level": 5
+    },
+    {
+      "description": "Anglais",
+      "level": 4
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Developpeur AS400 - DEVEO",
+      "company": "OPT | Service télécom - Nouméa",
+      "year": "Mars 2023 - Maintenant",
+      "description": "Projet OPT-SMS</br>- Etude de documentation des API du prestataire de service NativIP</br>- Intégration de leurs API afin de pouvoir envoyer des SMS à l'international depuis les différentes applications de l'OPT"
+    },
+    {
+      "title": "Team leader / Developpeur Fullstack - DEVEO",
+      "company": "DITTT | Service blabla - Nouméa",
+      "year": "Juin 2022 - Mars 2023",
+      "description": "Projet PICO2</br>Projet de refonte de l'application de gestion des permis de conduire</br>- Mise en place de l'architecture logiciel et encadrement de l'équipe de développement</br>- Développement de nouvelles fonctionnalités dans l'application de gestion des Permis de conduire de la DITTT</br>- 2tude, conception et développement de l'application dans une équipe de 4/5 développeurs et 1 Product Owner"
+    },
+    {
+      "title": "Ingénieur d'étude et développement - DEVEO",
+      "company": "OPT | Service postal - Nouméa",
+      "year": "Novembre 2021 - Juin 2022",
+      "description": "Projet BP Web</br>Refonte iso-fonctionnelle d'une application de gestion de parc de boîte postale</br>- Travail en mode AGILE SCRUM</br>- Migration des données de la base DB2/400 vers une base PostgreSQL</br>- Etude, conception et développement"
+    }
+  ],
+  "educations": [
+    {
+      "title": "Titre Concepteur Architecte en Système d'Information",
+      "studies": "Conservatoire National des Arts et Métiers - ? - ?",
+      "year": "2012 - 2015"
+    },
+    {
+      "title": "BTS Informatique: Développement d'application",
+      "studies": "Lycée du Grand Nouméa - Nouméa - Nouvelle-Calédonie",
+      "year": "2002 - 2004"
+    }
+  ],
+  "interests": [
+    {
+      "title": "Movies/Series",
+      "icon": "fa-film",
+      "iconPack": "fas"
+    },
+    {
+      "title": "Padel",
+      "icon": "fa-table-tennis-paddle-ball",
+      "iconPack": "fas"
+    },
+    {
+      "title": "Program",
+      "icon": "fa-code",
+      "iconPack": "fas"
+    },
+    {
+      "title": "Running",
+      "icon": "fa-person-running",
+      "iconPack": "fas"
+    }
+  ]
+}
