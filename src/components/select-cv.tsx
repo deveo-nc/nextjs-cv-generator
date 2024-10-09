@@ -5,8 +5,8 @@ import {useRouter} from "next/navigation";
 
 export default function SelectCV({ cvFiles, selectedCV }: { cvFiles: string[], selectedCV: string }) {
     const router = useRouter();
-    const handleCVChange = (cvJson: string) => {
-        router.push(`/?json=${cvJson}`);
+    const handleCVChange = (cvName: string) => {
+        router.push(`/${cvName}`);
     };
 
     return (
@@ -17,8 +17,8 @@ export default function SelectCV({ cvFiles, selectedCV }: { cvFiles: string[], s
                     <SelectValue placeholder="Sélectionner un CV"/>
                 </SelectTrigger>
                 <SelectContent>
-                    {cvFiles.map(file => (
-                        <SelectItem key={file} value={file}>
+                    {cvFiles.map((file, i) => (
+                        <SelectItem key={i} value={file.replace('.json', '')}>
                             {file.replace('.json', '')}
                         </SelectItem>
                     ))}
