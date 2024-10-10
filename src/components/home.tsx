@@ -5,7 +5,7 @@ import path from "path";
 import fs from "fs";
 import {CVData} from "@/model/cv";
 
-export default function Home({cvSelected}: {cvSelected: string|undefined}) {
+export default function Home({cvSelected, anonymize}: {cvSelected: string|undefined, anonymize: boolean}) {
     const dataDirectory = path.join(process.cwd(), 'public', 'data');
     const files = fs.readdirSync(dataDirectory);
     const cvFiles = files.filter(file => file.endsWith('.json')).map(file => file.replace('.json', ''));
@@ -34,12 +34,20 @@ export default function Home({cvSelected}: {cvSelected: string|undefined}) {
             </>
         );
     }
+
+    if (anonymize) {
+        cvData.lastname = '';
+        cvData.firstname = '';
+        cvData.profil_path = 'john_doe.png';
+        cvData.profile = '';
+    }
+
     return (
         <>
             <SelectCV cvFiles={files} selectedCV={selectedCV}></SelectCV>
             <HeaderCV cv={cvData}></HeaderCV>
             <main className="l-main bd-container">
-                <Template cv={cvData}></Template>
+                <Template cv={cvData} anonymize={anonymize}></Template>
             </main>
 
             <a href="#" className="scrolltop" id="scroll-top">

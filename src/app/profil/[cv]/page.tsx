@@ -15,6 +15,6 @@ export async function generateStaticParams() {
 
 export default async function CvPage({params}: { params: { cv: string } }) {
     return (
-        <Home cvSelected={params.cv}></Home>
+        <Home cvSelected={params.cv} anonymize={false}></Home>
     )
 }

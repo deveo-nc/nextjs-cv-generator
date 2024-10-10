@@ -6,13 +6,14 @@ import Interest from "@/components/interest";
 import Language from "@/components/language";
 import Contact from "@/components/contact";
 
-export default function Template({cv}: {
-    cv: CVData
+export default function Template({cv, anonymize}: {
+    cv: CVData,
+    anonymize: boolean
 }) {
     return (
         <div className="resume" id="area-cv">
             <div className="resume_left">
-                <Contact cv={cv}></Contact>
+                <Contact cv={cv} anonymize={anonymize}></Contact>
                 {/*<Profil cv={cv}></Profil>*/}
                 {/*<Social cv={cv}></Social>*/}
                 <Language cv={cv}></Language>

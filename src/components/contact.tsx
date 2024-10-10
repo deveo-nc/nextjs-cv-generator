@@ -7,7 +7,7 @@ import {faDownload, faEnvelope, faLocation, faMoon, faPhone, faSun} from "@forta
 import {useEffect, useState} from "react";
 import usePrintStyles from "@/hooks/Print";
 
-export default function Contact({cv}: { cv: CVData }) {
+export default function Contact({cv, anonymize}: { cv: CVData, anonymize: boolean }) {
     const PAGE_HEIGHT = 1122;
     usePrintStyles();
     const [icon, setIcon] = useState(faSun);
@@ -117,32 +117,36 @@ export default function Contact({cv}: { cv: CVData }) {
                     </h1>
                     <h3 className="home_profession">{cv.profession}</h3>
                 </div>
-                <div className="home_address bd-grid">
-                    <h2 className="section-title">Contact</h2>
-                    <span className="home_information">
-                        <FontAwesomeIcon className="home_icon" icon={faLocation}>
-                        </FontAwesomeIcon>{cv.location}
-                    </span>
-                    <span className="home_information">
-                        <a href={'mailto:' + cv.email} className="home_link">
-                            <FontAwesomeIcon className="home_icon" icon={faEnvelope}>
-                            </FontAwesomeIcon>{cv.email}
-                        </a>
-                    </span>
-                    <span className="home_information">
-                        <a href={'tel:' + cv.phoneWithIndicator} className="home_link">
-                            <FontAwesomeIcon className="home_icon" icon={faPhone}>
-                            </FontAwesomeIcon>{cv.phone}
-                        </a>
-                    </span>
-                </div>
+                {!anonymize &&
+                    <div className="home_address bd-grid">
+                        <h2 className="section-title">Contact</h2>
+                        <span className="home_information">
+                            <FontAwesomeIcon className="home_icon" icon={faLocation}>
+                            </FontAwesomeIcon>{cv.location}
+                        </span>
+                        <span className="home_information">
+                            <a href={'mailto:' + cv.email} className="home_link">
+                                <FontAwesomeIcon className="home_icon" icon={faEnvelope}>
+                                </FontAwesomeIcon>{cv.email}
+                            </a>
+                        </span>
+                        <span className="home_information">
+                            <a href={'tel:' + cv.phoneWithIndicator} className="home_link">
+                                <FontAwesomeIcon className="home_icon" icon={faPhone}>
+                                </FontAwesomeIcon>{cv.phone}
+                            </a>
+                        </span>
+                    </div>
+                }
             </div>
 
-            <button onClick={() => handleExportPDF()} className="generate-pdf no-print hover:animate-bounce" title="Generate PDF"
+            <button onClick={() => handleExportPDF()} className="generate-pdf no-print hover:animate-bounce"
+                    title="Generate PDF"
                     id="resume-button">
                 <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
             </button>
-            <button onClick={() => handleChangeTheme()} className="change-theme no-print hover:animate-bounce" title="Theme"
+            <button onClick={() => handleChangeTheme()} className="change-theme no-print hover:animate-bounce"
+                    title="Theme"
                     id="theme-button">
                 <FontAwesomeIcon icon={icon}></FontAwesomeIcon>
             </button>
