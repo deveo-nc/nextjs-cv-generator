@@ -5,7 +5,7 @@ const nextConfig = {
     images: {
         unoptimized: true,
         loader: "imgix",
-        path: ""
+        path: "/nextjs-cv-generator"
     }
 };
 
