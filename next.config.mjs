@@ -2,11 +2,11 @@
 const nextConfig = {
     output: 'export',
     reactStrictMode: true,
+    assetPrefix: './',
+    unoptimized: true,
     images: {
-        unoptimized: true,
-        loader: "imgix",
-        path: "/nextjs-cv-generator"
-    }
+        loader: 'imgix',
+    },
 };
 
 export default nextConfig;
