@@ -101,13 +101,13 @@ export default function Contact({cv, anonymize}: { cv: CVData, anonymize: boolea
                 <div className="home_data bd-grid">
                     <div className="profil_img_container home_img"
                          style={{position: 'relative', display: 'inline-block'}}>
-                        <Image src={'/assets/profil_mask.svg'} alt="icon mask" id="home-mask"
+                        <Image src="assets/profil_mask.svg" alt="icon mask" id="home-mask"
                                width={220} height={220} style={{
                             left: maskProps.left,
                             top: maskProps.top
                         }}></Image>
                         <div className="hexagon">
-                            <Image src={'/pictures/' + cv.profil_path} alt="Icon picture" id="home-img"
+                            <Image src={'pictures/' + cv.profil_path} alt="Icon picture" id="home-img"
                                    width={220} height={220}></Image>
                         </div>
                     </div>

@@ -1,12 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     output: 'export',
-    reactStrictMode: true,
-    assetPrefix: './',
-    unoptimized: true,
-    images: {
-        loader: 'imgix',
-    },
+    reactStrictMode: true
 };
 
 export default nextConfig;
