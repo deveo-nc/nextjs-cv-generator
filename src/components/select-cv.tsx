@@ -36,19 +36,19 @@ export default function SelectCV({ cvFiles, selectedCV }: { cvFiles: string[], s
         <div className="no-print flex justify-center items-center mb-3 flex-row">
             <h1 className="mr-1">Choisissez un CV:</h1>
             <Select onValueChange={handleCVChange} defaultValue={selectedCV}>
-                <SelectTrigger className="w-[180px]">
-                    <SelectValue placeholder="Sélectionner un CV"/>
+                <SelectTrigger aria-label='Select CV' className="w-[180px]">
+                    <SelectValue aria-label='Select CV' placeholder="Sélectionner un CV"/>
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent aria-label='Select CV'>
                     {cvFiles.map((file, i) => (
-                        <SelectItem key={i} value={file.replace('.json', '')}>
+                        <SelectItem aria-label={file.replace('.json', '')} key={i} value={file.replace('.json', '')}>
                             {file.replace('.json', '')}
                         </SelectItem>
                     ))}
                 </SelectContent>
             </Select>
             <div className="items-top flex space-x-2 ml-4">
-                <Checkbox onCheckedChange={handleAnonymizeChange} checked={isAnonymized} id="terms1"/>
+                <Checkbox aria-label='anonymize CV' onCheckedChange={handleAnonymizeChange} checked={isAnonymized} id="terms1"/>
                 <div className="grid gap-1.5 leading-none">
                     <label
                         htmlFor="terms1"

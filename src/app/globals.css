@@ -9,12 +9,16 @@
   /* Colors */
   --title-color-left: #FAFAFA;
   --title-color-right: #29394d;
+
   --text-color-left: #FAFAFA;
   --text-color-right: #403A3A;
+
   --text-color-light-left: #707070;
   --text-color-light-right: #a9a9a9;
+
   --container-color-left: #29394d;
   --container-color-right: #FAFAFA;
+  
   --body-color: #FCFCFC;
 
   /* Typography */
@@ -236,7 +240,7 @@ img {
   color: var(--text-color-left);
   position: absolute;
   width: 322px;
-  top: 50px;
+  top: 20px;
   left: -378px;
   padding: 0 1.5rem;
 }

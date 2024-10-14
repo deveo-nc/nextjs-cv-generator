@@ -15,8 +15,10 @@ export default function Experience({cv}: {cv:CVData}) {
                             </div>
                             <div className="experience_data bd-grid" style={{position: "relative"}}>
                                 <h3 className="experience_title">{experience.title}</h3>
-                                <span className="experience_company">{experience.company}</span>
-                                <span className="experience_year">{experience.year}</span>
+                                <div className='flex justify-between'>
+                                    <span className="experience_company">{experience.company}</span>
+                                    <span className="experience_year font-bold">{experience.year}</span>
+                                </div>
                                 <div className="environment_container">
                                     <h2>Environment</h2>
                                     <p>{experience.environment}</p>

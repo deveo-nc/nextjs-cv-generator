@@ -117,7 +117,7 @@ export default function Contact({cv, anonymize}: { cv: CVData, anonymize: boolea
                         <span className="firstname">{cv.firstname}</span>
                         <b><span className="lastname"> {cv.lastname}</span></b>
                     </h1>
-                    <h3 className="home_profession">{cv.profession}</h3>
+                    <h2 className="home_profession">{cv.profession}</h2>
                 </div>
                 {!anonymize &&
                     <div className="home_address bd-grid">

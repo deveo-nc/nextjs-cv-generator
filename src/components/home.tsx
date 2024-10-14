@@ -38,7 +38,7 @@ export default function Home({cvSelected, anonymize}: {cvSelected: string|undefi
     if (anonymize) {
         cvData.lastname = '';
         cvData.firstname = '';
-        cvData.profil_path = 'john_doe.png';
+        cvData.profil_path = 'john_doe.webp';
         cvData.profile = '';
     }
 
