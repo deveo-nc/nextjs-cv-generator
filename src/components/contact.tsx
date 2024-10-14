@@ -6,6 +6,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faDownload, faEnvelope, faLocation, faMoon, faPhone, faSun} from "@fortawesome/free-solid-svg-icons";
 import {useEffect, useState} from "react";
 import usePrintStyles from "@/hooks/Print";
+import NextConfig from '@/../next.config.mjs';
 
 export default function Contact({cv, anonymize}: { cv: CVData, anonymize: boolean }) {
     const PAGE_HEIGHT = 1122;
@@ -102,13 +103,13 @@ export default function Contact({cv, anonymize}: { cv: CVData, anonymize: boolea
                 <div className="home_data bd-grid">
                     <div className="profil_img_container home_img"
                          style={{position: 'relative', display: 'inline-block'}}>
-                        <Image src={'/assets/profil_mask.svg'} alt="icon mask" id="home-mask"
+                        <Image src={ NextConfig.basePath + '/assets/profil_mask.svg'} alt="icon mask" id="home-mask"
                                width={220} height={220} style={{
                             left: maskProps.left,
                             top: maskProps.top
                         }}></Image>
                         <div className="hexagon">
-                            <Image src={'/pictures/' + cv.profil_path} alt="Icon picture" id="home-img"
+                            <Image src={NextConfig.basePath + '/pictures/' + cv.profil_path} alt="Icon picture" id="home-img"
                                    width={220} height={220}></Image>
                         </div>
                     </div>
