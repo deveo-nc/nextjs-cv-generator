@@ -13,7 +13,7 @@ export default function Experience({cv}: {cv:CVData}) {
                                 <span className="experience_rounder"></span>
                                 {!isLastItem && <span className="experience_line"></span>}
                             </div>
-                            <div className="experience_data bd-grid" style={{position: "relative"}}>
+                            <div className="experience_data bd-grid relative w-full">
                                 <h3 className="experience_title">{experience.title}</h3>
                                 <div className='flex justify-between'>
                                     <span className="experience_company">{experience.company}</span>
