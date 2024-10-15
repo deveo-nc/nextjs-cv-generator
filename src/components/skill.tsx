@@ -9,7 +9,7 @@ export default function Skill({cv}:{cv:CVData}) {
                 <div className="skills_content bd-grid">
                     {cv.skills.map((skill, i) => {
                         return (
-                            <div key={i} className="skills_name">
+                            <div key={i} className="skills_name flex justify-between items-center">
                                 <span className="skills_text">{skill.name}</span>
                                 <SkillBar skill={skill}></SkillBar>
                             </div>

@@ -500,7 +500,8 @@ img {
 }
 
 .skills_content {
-  gap: 0.2rem;
+  column-gap: 1.2rem;
+  row-gap: 0.2rem;
   grid-template-columns: repeat(2, 1fr);
   padding-left: 2rem;
 }
@@ -511,12 +512,12 @@ img {
 
 .skills_text {
   display: inline-block;
-  width: 100px;
+  width: 140px;
 }
 
 .skills_box {
   display: inline-block;
-  width: 150px;
+  width: 80px;
   height: 10px;
   border-radius: 6px;
   overflow: hidden;

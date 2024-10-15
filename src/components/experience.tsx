@@ -19,11 +19,13 @@ export default function Experience({cv}: {cv:CVData}) {
                                     <span className="experience_company">{experience.company}</span>
                                     <span className="experience_year font-bold">{experience.year}</span>
                                 </div>
-                                <div className="environment_container">
-                                    <h2>Environment</h2>
-                                    <p>{experience.environment}</p>
-                                </div>
-                                <p className="experience_description" >{experience.description}</p>
+                                {
+                                    experience.environment && <div className="environment_container">
+                                        <h2>Environment</h2>
+                                        <p>{experience.environment}</p>
+                                    </div>
+                                }
+                                <p className="experience_description">{experience.description}</p>
                                 {(experience.tasks?.length ?? 0) > 0 &&
                                     <ul className="experience_tasks">
                                         {experience.tasks.map((task, index) => {
