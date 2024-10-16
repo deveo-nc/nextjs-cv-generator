@@ -27,7 +27,13 @@ interface Experience {
     year: string;
     description: string;
     tasks: string[];
-    environment: string;
+    environments: string|Environment[];
+}
+
+interface Environment {
+    icon: IconName|undefined,
+    iconPack: 'fas'|'fab'|undefined,
+    description: string
 }
 
 // Education Interface

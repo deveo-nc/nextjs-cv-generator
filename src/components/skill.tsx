@@ -4,7 +4,7 @@ import SkillBar from "@/components/skill-bar";
 export default function Skill({cv}:{cv:CVData}) {
     return (
         <section className="skills section" id="skills">
-            <h2 className="section-title">Compétences</h2>
+            <h2 className="section_title">Compétences</h2>
             <div className="skills_container">
                 <div className="skills_content bd-grid">
                     {cv.skills.map((skill, i) => {

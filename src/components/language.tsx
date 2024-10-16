@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 export default function Language({cv}: { cv: CVData }) {
     return (
         <section className="languages section" id="languages">
-            <h2 className="section-title">Langues</h2>
+            <h2 className="section_title">Langues</h2>
             <div className="languages_container">
                 <ul className="languages_content bd-grid">
                     {cv.languages.map((lang, i) => {

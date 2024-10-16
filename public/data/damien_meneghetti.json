@@ -58,6 +58,50 @@
     {
       "name": "Quarkus",
       "level": "60%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
     }
   ],
   "languages": [
@@ -79,19 +123,103 @@
       "title": "Développeur Fullstack - DEVEO",
       "company": "OPT | Service bancaire - Nouméa",
       "year": "Janvier 2024 - Maintenant",
-      "description": "Projet Mana</br>- Etude de documentation des API du prestataire de service NativIP</br>- Intégration de leurs API afin de pouvoir envoyer des SMS à l'international depuis les différentes applications de l'OPT"
+      "description": "Projet Mana",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR 18, JSON, REST"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "SPRING BOOT 3, SPRING BATCH"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA"
+        }
+      ],
+      "tasks": [
+        "Cubilia a hac purus duis lacinia quis.",
+        "Est sapien nisi tristique blandit justo integer vestibulum sit felis eu.",
+        "Ultrices magnis nostra justo mi convallis aliquam.",
+        "Laoreet curabitur massa litora blandit odio vulputate dui nostra molestie luctus."
+      ]
     },
     {
       "title": "Team leader / Developpeur Fullstack - DEVEO",
       "company": "DITTT | Service blabla - Nouméa",
       "year": "Juin 2022 - Mars 2023",
-      "description": "Projet PICO2</br>Projet de refonte de l'application de gestion des permis de conduire</br>- Mise en place de l'architecture logiciel et encadrement de l'équipe de développement</br>- Développement de nouvelles fonctionnalités dans l'application de gestion des Permis de conduire de la DITTT</br>- 2tude, conception et développement de l'application dans une équipe de 4/5 développeurs et 1 Product Owner"
+      "description": "Projet PICO2",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR 18, JSON, REST"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "SPRING BOOT 3, SPRING BATCH"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA"
+        }
+      ],
+      "tasks": [
+        "Projet de refonte de l'application de gestion des permis de conduire",
+        "Mise en place de l'architecture logiciel et encadrement de l'équipe de développement",
+        "Développement de nouvelles fonctionnalités dans l'application de gestion des Permis de conduire de la DITTT",
+        "Etude, conception et développement de l'application dans une équipe de 4/5 développeurs et 1 Product Owner"
+      ]
     },
     {
       "title": "Ingénieur d'étude et développement - DEVEO",
       "company": "OPT | Service postal - Nouméa",
       "year": "Novembre 2021 - Juin 2022",
-      "description": "Projet BP Web</br>Refonte iso-fonctionnelle d'une application de gestion de parc de boîte postale</br>- Travail en mode AGILE SCRUM</br>- Migration des données de la base DB2/400 vers une base PostgreSQL</br>- Etude, conception et développement"
+      "description": "Projet BP Web",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR 18, JSON, REST"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "SPRING BOOT 3, SPRING BATCH"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA"
+        }
+      ],
+      "tasks": [
+        "Cubilia a hac purus duis lacinia quis.",
+        "Est sapien nisi tristique blandit justo integer vestibulum sit felis eu.",
+        "Ultrices magnis nostra justo mi convallis aliquam.",
+        "Laoreet curabitur massa litora blandit odio vulputate dui nostra molestie luctus."
+      ]
     }
   ],
   "educations": [

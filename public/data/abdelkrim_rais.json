@@ -82,6 +82,22 @@
     {
       "name": "Docker",
       "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
     }
   ],
   "languages": [
@@ -104,10 +120,34 @@
       "company": "OPT | Service postal - Nouméa",
       "year": "Juin 2019 - Maintenant",
       "description": "Projet SIDO",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR 18, JSON, REST"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "SPRING BOOT 3, SPRING BATCH, JASPER"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA"
+        }
+      ],
       "tasks": [
         "TMA de l'application SIDO (Suivi Informatisé Des Objets)",
-        "dqldql dlqd qld qdq d lqdlqzdq",
-        "dqdqz dzqqdq q zdqqdzqd qdqdq"
+        "Cubilia a hac purus duis lacinia quis.",
+        "Est sapien nisi tristique blandit justo integer vestibulum sit felis eu.",
+        "Ultrices magnis nostra justo mi convallis aliquam.",
+        "Laoreet curabitur massa litora blandit odio vulputate dui nostra molestie luctus."
       ]
     },
     {
@@ -115,11 +155,67 @@
       "company": "Province Sud | DSIN - Nouméa",
       "year": "Septembre 2018 - Juin 2019",
       "description": "Projet BOOST",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR 18, JSON, REST"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "SPRING BOOT 3, SPRING BATCH, JASPER"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA"
+        }
+      ],
       "tasks": [
-        "dqzdqdz qdzqz dqdqz dqd qdz",
-        "dqdqz dzqqdq q zdqqdzqd qdqdq",
-        "dqdqz dzqqdq q zdqqdzqd qdqdq",
-        "dqdqz dzqqdq q zdqqdzqd qdqdq"
+        "Cubilia a hac purus duis lacinia quis.",
+        "Est sapien nisi tristique blandit justo integer vestibulum sit felis eu.",
+        "Ultrices magnis nostra justo mi convallis aliquam.",
+        "Laoreet curabitur massa litora blandit odio vulputate dui nostra molestie luctus."
+      ]
+    },
+    {
+      "title": "Developpeur Fullstack - DEVEO",
+      "company": "Province Sud | DSIN - Nouméa",
+      "year": "Septembre 2018 - Juin 2019",
+      "description": "Projet BOOST",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR 18, JSON, REST"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "SPRING BOOT 3, SPRING BATCH, JASPER"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA"
+        }
+      ],
+      "tasks": [
+        "Cubilia a hac purus duis lacinia quis.",
+        "Est sapien nisi tristique blandit justo integer vestibulum sit felis eu.",
+        "Ultrices magnis nostra justo mi convallis aliquam.",
+        "Laoreet curabitur massa litora blandit odio vulputate dui nostra molestie luctus."
       ]
     }
   ],

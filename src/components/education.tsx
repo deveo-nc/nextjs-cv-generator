@@ -3,7 +3,7 @@ import {CVData} from "@/model/cv";
 export default function Education({cv}: { cv: CVData }) {
     return (
         <section className="education section" id="education">
-            <h2 className="section-title">Formation</h2>
+            <h2 className="section_title">Formation</h2>
             <div className="education_container bd-grid">
                 {cv.educations.map((education, i) => {
                     const isLastItem = i === cv.educations.length - 1; // Vérifie si c'est le dernier élément

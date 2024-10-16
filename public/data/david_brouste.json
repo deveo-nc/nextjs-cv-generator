@@ -128,7 +128,28 @@
       "company": "OPT | Service postal - Nouméa",
       "year": "Février 2024 - Maintenant",
       "description": "Hors projet",
-      "environment": "AGILE SCRUM, ANGULAR 18, SPRING BOOT 3, SPRING BATCH, JASPER, INTELIJ, GIT, JSON, REST, JIRA",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR 18, JSON, REST"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "SPRING BOOT 3, SPRING BATCH, JASPER"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA"
+        }
+      ],
       "tasks": [
         "Développement de lots d'évolutions (Projet SIBP et SIOR)",
         "Maintenance évolutive, mise à jour des frameworks sur leurs versions récentes (Spring 3 / Angular 18)",
@@ -140,7 +161,28 @@
       "company": "OPT | Service postal - Nouméa",
       "year": "Décembre 2023 - Février 2024",
       "description": "Projet OPT-SMS",
-      "environment": "ANGULAR 13, SPRING BOOT 2, SPRING BATCH, INTELIJ, GIT, JSON, REST, JIRA, NATIVIP",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR 13, JSON, REST"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "SPRING BOOT 2, SPRING BATCH"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA"
+        }
+      ],
       "tasks": [
         "Etude de documentation des API du prestataire de service NativIP",
         "Intégration de leurs API afin de pouvoir envoyer des SMS à l’international depuis les différentes applications de l’OPT"
@@ -151,7 +193,28 @@
       "company": "OPT | Service postal - Nouméa",
       "year": "Octobre 2023 - Décembre 2023",
       "description": "Projet SIDO Mobile",
-      "environment": "AGILE SCRUM, ANGULAR 16, IONIC 7, CAPACITOR, GITHUB ACTIONS, INTELIJ, ANDROID STUDIO, GIT, JSON, REST, JIRA, ANDROID",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR 18, JSON, REST"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "SPRING BOOT 3, SPRING BATCH"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA"
+        }
+      ],
       "tasks": [
         "Migration Angular 7 vers Angular 16",
         "Migration Cordova vers Capacitor",
@@ -167,7 +230,28 @@
       "company": "OPT | Service postal - Nouméa",
       "year": "Décembre 2021 - Septembre 2023",
       "description": "Projet SIBP",
-      "environment": "AGILE SCRUM, ANGULAR 14, ITELIJ, GITLAB, JSON, REST, JIRA, CONFLUENCE, TOWER, SPRING BOOT 2.7, SPRING BATCH, AS400, POSGRESQL",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR 18, JSON, REST"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "SPRING BOOT 3, SPRING BATCH"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA"
+        }
+      ],
       "tasks": [
         "Travail en mode AGILE SCRUM",
         "Migration des données d’une base AS400 vers une base PosgreSQL",
@@ -179,7 +263,28 @@
       "company": "Province Sud | DSIN - Nouméa",
       "year": "Septembre 2021 - Décembre 2021",
       "description": "Projet ROCKET",
-      "environment": "AGILE SCRUM, ANGULAR 13, INTELIJ, GIT, JSON, REST, JIRA, CONFLUENCE, POSGRESQL, GRAILS, GROOVY, SENCHA ARCHITECT, EXTJS",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR 18, JSON, REST"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "SPRING BOOT 3, SPRING BATCH"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA"
+        }
+      ],
       "tasks": [
         "Etude, conception et développement de la maintenance évolutive et corrective du projet",
         "Environnement: Agile SCRUM, Jira, Grails/Groovy, Spring, Git, Sencha,Architect, ExtJS, PostgreSQL, Hibernate, Json, REST"
@@ -190,7 +295,28 @@
       "company": "Province Sud | DSIN - Nouméa",
       "year": "Novembre 2019 - Décembre 2019",
       "description": "Projet BOOST",
-      "environment": "AGILE SCRUM, ANGULAR 13, INTELIJ, GIT, JSON, REST, JIRA, CONFLUENCE, POSGRESQL, GRAILS, GROOVY, SENCHA ARCHITECT, EXTJS",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR 18, JSON, REST"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "SPRING BOOT 3, SPRING BATCH"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA"
+        }
+      ],
       "tasks": [
         "Etude, conception et développement de la maintenance évolutive et corrective du projet",
         "Environnement: Agile SCRUM, Jira, Grails/Groovy, Spring, Git, Sencha,Architect, ExtJS, PostgreSQL, Hibernate, Json, REST"

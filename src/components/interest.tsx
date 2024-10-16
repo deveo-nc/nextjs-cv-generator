@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 export default function Interest({cv}: {cv: CVData}) {
     return (
         <section className="interests section" id="interests">
-            <h2 className="section-title">Centre d&#39;intérêts</h2>
+            <h2 className="section_title">Centre d&#39;intérêts</h2>
             <div className="interests_container bd-grid">
                 {cv.interests.map((interest, i) => {
                     return (

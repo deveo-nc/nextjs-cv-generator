@@ -1,9 +1,11 @@
 import {CVData} from "@/model/cv";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 export default function Experience({cv}: {cv:CVData}) {
     return (
-        <section className="experience section" id="experience">
-            <h2 className="section-title">Experiences</h2>
+        <section className="experience section relative" id="experience">
+            <h2 className="section_title">Experiences</h2>
+            <h2 className="environment_title">Environment</h2>
             <div className="experience_container bd-grid">
                 {cv.experiences.map((experience, i) => {
                     const isLastItem = i === cv.experiences.length - 1;
@@ -20,10 +22,22 @@ export default function Experience({cv}: {cv:CVData}) {
                                     <span className="experience_year font-bold">{experience.year}</span>
                                 </div>
                                 {
-                                    experience.environment && <div className="environment_container">
-                                        <h2>Environment</h2>
-                                        <p>{experience.environment}</p>
-                                    </div>
+                                    experience.environments && (
+                                        <div className="environment_container">
+                                            {
+                                                typeof experience.environments === 'string' &&
+                                                <p>{experience.environments}</p>
+                                            }
+                                            {
+                                                Array.isArray(experience.environments) && experience.environments.map((env, index) => (
+                                                    <span key={index} className="flex items-start">
+                                                        {env.icon && env.iconPack && <FontAwesomeIcon className="mr-2 mt-1" icon={[env.iconPack, env.icon]}></FontAwesomeIcon>}
+                                                        <span>{env.description}</span>
+                                                    </span>
+                                                ))
+                                            }
+                                        </div>
+                                    )
                                 }
                                 <p className="experience_description">{experience.description}</p>
                                 {(experience.tasks?.length ?? 0) > 0 &&

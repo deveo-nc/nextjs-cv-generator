@@ -121,7 +121,7 @@ export default function Contact({cv, anonymize}: { cv: CVData, anonymize: boolea
                 </div>
                 {!anonymize &&
                     <div className="home_address bd-grid">
-                        <h2 className="section-title">Contact</h2>
+                        <h2 className="section_title">Contact</h2>
                         <span className="home_information">
                             <FontAwesomeIcon className="home_icon" icon={faLocation}>
                             </FontAwesomeIcon>{cv.location}
