@@ -7,21 +7,6 @@
   "email": "damien.meneghetti@deveo.nc",
   "phoneWithIndicator": "+687959112",
   "phone": "95 91 12",
-  "social": [
-    {
-      "href": "https://github.com/DM",
-      "description": "DM",
-      "icon": "fa-github",
-      "iconPack": "fab"
-    },
-    {
-      "href": "https://www.linkedin.com/in/DM/",
-      "description": "Damien MENEGHETTI",
-      "icon": "fa-linkedin",
-      "iconPack": "fab"
-    }
-  ],
-  "profile": "zqdqzdqzdzqdqzd qzd qzdq dqzd qzd qzd qzdqzdqz....",
   "skills": [
     {
       "name": "Javascript",

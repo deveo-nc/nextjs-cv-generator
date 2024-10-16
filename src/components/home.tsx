@@ -1,5 +1,4 @@
 import SelectCV from "@/components/select-cv";
-import HeaderCV from "@/components/header";
 import Template from "@/components/template";
 import path from "path";
 import fs from "fs";
@@ -39,20 +38,14 @@ export default function Home({cvSelected, anonymize}: {cvSelected: string|undefi
         cvData.lastname = '';
         cvData.firstname = '';
         cvData.profil_path = 'john_doe.webp';
-        cvData.profile = '';
     }
 
     return (
         <>
             <SelectCV cvFiles={files} selectedCV={selectedCV}></SelectCV>
-            <HeaderCV cv={cvData}></HeaderCV>
             <main className="l-main bd-container">
                 <Template cv={cvData} anonymize={anonymize}></Template>
             </main>
-
-            <a href="#" className="scrolltop" id="scroll-top">
-                <i className="fa-solid fa-arrow-up scrolltop_icon"></i>
-            </a>
         </>
     );
 }

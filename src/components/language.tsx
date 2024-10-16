@@ -6,11 +6,11 @@ export default function Language({cv}: { cv: CVData }) {
         <section className="languages section" id="languages">
             <h2 className="section_title">Langues</h2>
             <div className="languages_container">
-                <ul className="languages_content bd-grid">
+                <ul className="languages_content pl-0 gap-1 grid">
                     {cv.languages.map((lang, i) => {
                         return (
-                            <li key={i} className="languages_name">
-                                <span className="languages_text">{lang.description}</span>
+                            <li key={i} className="languages_name flex justify-between mb-1">
+                                <span className="languages_text inline-block">{lang.description}</span>
                                 <span className="languages_stars">
                    <FontAwesomeIcon className={lang.level < 1 ? "languages_stars_checked" : ""}
                                     icon={["fas", "star"]}></FontAwesomeIcon>

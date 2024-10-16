@@ -98,19 +98,22 @@ export default function Contact({cv, anonymize}: { cv: CVData, anonymize: boolea
     };
 
     return (
-        <section className="home" id="home">
-            <div className="home_container section bd-grid">
-                <div className="home_data bd-grid">
+        <section className="relative" id="home">
+            <div className="section grid gap-6">
+                <div className="text-center grid gap-2">
                     <div className="profil_img_container home_img"
                          style={{position: 'relative', display: 'inline-block'}}>
-                        <Image src={ NextConfig.basePath + '/assets/profil_mask.svg'} alt="icon mask" id="home-mask"
-                               width={220} height={220} style={{
+                        <Image src={ NextConfig.basePath + '/assets/profil_mask.svg'}
+                               className="absolute left-0 top-0"
+                               alt="icon mask" id="home-mask"
+                               width={150} height={150} style={{
                             left: maskProps.left,
                             top: maskProps.top
                         }}></Image>
-                        <div className="hexagon">
-                            <Image src={NextConfig.basePath + '/pictures/' + cv.profil_path} alt="Icon picture" id="home-img"
-                                   width={220} height={220}></Image>
+                        <div className="hexagon relative overflow-hidden">
+                            <Image src={NextConfig.basePath + '/pictures/' + cv.profil_path} className="hover:scale-110"
+                                   alt="Icon picture" id="home-img"
+                                   width={150} height={150}></Image>
                         </div>
                     </div>
                     <h1 className="home_title">
@@ -120,7 +123,7 @@ export default function Contact({cv, anonymize}: { cv: CVData, anonymize: boolea
                     <h2 className="home_profession">{cv.profession}</h2>
                 </div>
                 {!anonymize &&
-                    <div className="home_address bd-grid">
+                    <div className="home_address gap-3 grid">
                         <h2 className="section_title">Contact</h2>
                         <span className="home_information">
                             <FontAwesomeIcon className="home_icon" icon={faLocation}>
@@ -142,12 +145,14 @@ export default function Contact({cv, anonymize}: { cv: CVData, anonymize: boolea
                 }
             </div>
 
-            <button onClick={() => handleExportPDF()} className="generate-pdf no-print hover:animate-bounce"
+            <button onClick={() => handleExportPDF()} className="generate-pdf no-print hover:animate-bounce
+            inline-block absolute left-0 top-8 cursor-pointer text-xl"
                     title="Generate PDF"
                     id="resume-button">
                 <FontAwesomeIcon icon={faDownload}></FontAwesomeIcon>
             </button>
-            <button onClick={() => handleChangeTheme()} className="change-theme no-print hover:animate-bounce"
+            <button onClick={() => handleChangeTheme()} className="no-print hover:animate-bounce
+             right-0 text-xl absolute top-8 flex cursor-pointer"
                     title="Theme"
                     id="theme-button">
                 <FontAwesomeIcon icon={icon}></FontAwesomeIcon>

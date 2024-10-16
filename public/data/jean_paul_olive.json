@@ -7,21 +7,6 @@
   "email": "jean-paul.olive@deveo.nc",
   "phoneWithIndicator": "+687790723",
   "phone": "79 07 23",
-  "social": [
-    {
-      "href": "https://github.com/JP",
-      "description": "JP",
-      "icon": "fa-github",
-      "iconPack": "fab"
-    },
-    {
-      "href": "https://www.linkedin.com/in/JP/",
-      "description": "Jean-Paul OLIVE",
-      "icon": "fa-linkedin",
-      "iconPack": "fab"
-    }
-  ],
-  "profile": "Blablabl ablaadz...",
   "skills": [
     {
       "name": "Javascript",

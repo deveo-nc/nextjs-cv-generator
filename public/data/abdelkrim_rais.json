@@ -7,21 +7,6 @@
   "email": "arais@deveo.nc",
   "phoneWithIndicator": "+687526991",
   "phone": "52 69 91",
-  "social": [
-    {
-      "href": "https://github.com/arais",
-      "description": "arais",
-      "icon": "github",
-      "iconPack": "fab"
-    },
-    {
-      "href": "https://www.linkedin.com/in/arais/",
-      "description": "Abdelkrim RAIS",
-      "icon": "linkedin",
-      "iconPack": "fab"
-    }
-  ],
-  "profile": "dqzdqzdq  dqz qdd zqd qz d zq....",
   "skills": [
     {
       "name": "Javascript",

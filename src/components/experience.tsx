@@ -6,16 +6,16 @@ export default function Experience({cv}: {cv:CVData}) {
         <section className="experience section relative" id="experience">
             <h2 className="section_title">Experiences</h2>
             <h2 className="environment_title">Environment</h2>
-            <div className="experience_container bd-grid">
+            <div className="experience_container grid gap-4">
                 {cv.experiences.map((experience, i) => {
                     const isLastItem = i === cv.experiences.length - 1;
                     return (
-                        <div key={i} className="experience_content">
-                            <div className="experience_time">
+                        <div key={i} className="experience_content flex">
+                            <div className="experience_time pr-2">
                                 <span className="experience_rounder"></span>
                                 {!isLastItem && <span className="experience_line"></span>}
                             </div>
-                            <div className="experience_data bd-grid relative w-full">
+                            <div className="experience_data grid gap-6 relative w-full">
                                 <h3 className="experience_title">{experience.title}</h3>
                                 <div className='flex justify-between'>
                                     <span className="experience_company">{experience.company}</span>
@@ -23,7 +23,7 @@ export default function Experience({cv}: {cv:CVData}) {
                                 </div>
                                 {
                                     experience.environments && (
-                                        <div className="environment_container">
+                                        <div className="environment_container absolute top-5 px-4">
                                             {
                                                 typeof experience.environments === 'string' &&
                                                 <p>{experience.environments}</p>
