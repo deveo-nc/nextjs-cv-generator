@@ -125,19 +125,19 @@ export default function Contact({cv, anonymize}: { cv: CVData, anonymize: boolea
                 {!anonymize &&
                     <div className="home_address gap-3 grid">
                         <h2 className="section_title">Contact</h2>
-                        <span className="home_information">
-                            <FontAwesomeIcon className="home_icon" icon={faLocation}>
+                        <span className="home_information flex items-center">
+                            <FontAwesomeIcon className="home_icon flex justify-center mr-3" icon={faLocation}>
                             </FontAwesomeIcon>{cv.location}
                         </span>
-                        <span className="home_information">
-                            <a href={'mailto:' + cv.email} className="home_link">
-                                <FontAwesomeIcon className="home_icon" icon={faEnvelope}>
+                        <span className="home_information flex items-center">
+                            <a href={'mailto:' + cv.email} className="home_link no-underline inline-flex items-center">
+                                <FontAwesomeIcon className="home_icon flex justify-center mr-3" icon={faEnvelope}>
                                 </FontAwesomeIcon>{cv.email}
                             </a>
                         </span>
-                        <span className="home_information">
-                            <a href={'tel:' + cv.phoneWithIndicator} className="home_link">
-                                <FontAwesomeIcon className="home_icon" icon={faPhone}>
+                        <span className="home_information flex items-center">
+                            <a href={'tel:' + cv.phoneWithIndicator} className="home_link no-underline inline-flex items-center" >
+                                <FontAwesomeIcon className="home_icon flex justify-center mr-3" icon={faPhone}>
                                 </FontAwesomeIcon>{cv.phone}
                             </a>
                         </span>

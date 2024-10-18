@@ -50,7 +50,7 @@ export default function RootLayout({
         {/*<link rel="icon" type="image/png" sizes="512x512" href="assets/pictures/favicon/android-chrome-512x512.png"/>*/}
       </head>
       <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+          className={`${geistSans.variable} ${geistMono.variable} antialiased p-0`}
       >
       {children}
       </body>

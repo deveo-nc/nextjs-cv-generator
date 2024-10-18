@@ -8,8 +8,9 @@ export default function Interest({cv}: {cv: CVData}) {
             <div className="interests_container mt-4 grid grid-cols-3 gap-6">
                 {cv.interests.map((interest, i) => {
                     return (
-                        <div key={i} className="interests_content hover:animate-bounce">
-                            <FontAwesomeIcon className="interests_icon" icon={[interest.iconPack, interest.icon]}></FontAwesomeIcon>
+                        <div key={i} className="interests_content hover:animate-bounce flex flex-col content-center">
+                            <FontAwesomeIcon className="interests_icon" icon={[interest.iconPack, interest.icon]}>
+                            </FontAwesomeIcon>
                             <span className="interests_name">{interest.title}</span>
                         </div>
                     );

@@ -5,7 +5,7 @@ export default function Experience({cv}: {cv:CVData}) {
     return (
         <section className="experience section relative" id="experience">
             <h2 className="section_title">Experiences</h2>
-            <h2 className="environment_title">Environment</h2>
+            <h2 className="environment_title absolute top-0 pt-6 uppercase text-center tracking-[.35rem]">Environment</h2>
             <div className="experience_container grid gap-4">
                 {cv.experiences.map((experience, i) => {
                     const isLastItem = i === cv.experiences.length - 1;
@@ -15,7 +15,7 @@ export default function Experience({cv}: {cv:CVData}) {
                                 <span className="experience_rounder"></span>
                                 {!isLastItem && <span className="experience_line"></span>}
                             </div>
-                            <div className="experience_data grid gap-6 relative w-full">
+                            <div className="experience_data grid gap-1 relative w-full">
                                 <h3 className="experience_title">{experience.title}</h3>
                                 <div className='flex justify-between'>
                                     <span className="experience_company">{experience.company}</span>
@@ -41,7 +41,7 @@ export default function Experience({cv}: {cv:CVData}) {
                                 }
                                 <p className="experience_description">{experience.description}</p>
                                 {(experience.tasks?.length ?? 0) > 0 &&
-                                    <ul className="experience_tasks">
+                                    <ul className="experience_tasks pl-4 list-disc">
                                         {experience.tasks.map((task, index) => {
                                             return (
                                                 <li key={index}>{task}</li>

@@ -43,7 +43,7 @@ export default function Home({cvSelected, anonymize}: {cvSelected: string|undefi
     return (
         <>
             <SelectCV cvFiles={files} selectedCV={selectedCV}></SelectCV>
-            <main className="l-main bd-container">
+            <main className="l-main bd-container ml-auto mr-auto min-w-[794px] max-w-[794px]">
                 <Template cv={cvData} anonymize={anonymize}></Template>
             </main>
         </>

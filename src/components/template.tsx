@@ -17,7 +17,7 @@ export default function Template({cv, anonymize}: {
                 <Language cv={cv}></Language>
             </div>
 
-            <div className="resume_right px-5 py-0 mt-12">
+            <div className="resume_right px-5 py-0 mt-12 w-full">
                 <Education cv={cv}></Education>
                 <Skill cv={cv}></Skill>
                 <Experience cv={cv}></Experience>

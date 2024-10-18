@@ -10,7 +10,7 @@ export default function SkillBar({skill}: {skill: Skill}) {
     }, [skill.level]);
 
     return (
-        <div className="skills_box h-3 inline-block rounded-lg overflow-hidden">
+        <div className="skills_box h-3 inline-block rounded-lg overflow-hidden" style={{ width: '80px'}}>
             <span className="skills_progress h-3 block rounded transition-[width] duration-300" style={{
                 width: width
             }}></span>

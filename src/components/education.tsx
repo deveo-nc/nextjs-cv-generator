@@ -13,7 +13,7 @@ export default function Education({cv}: { cv: CVData }) {
                                 <span className="education_rounder"></span>
                                 {!isLastItem && <span className="education_line"></span>}
                             </div>
-                            <div className="education_data grid gap-6">
+                            <div className="education_data grid gap-1">
                                 <h3 className="education_title">{education.title}</h3>
                                 <span className="education_studies">{education.studies}</span>
                                 <span className="education_year">{education.year}</span>
