@@ -14,11 +14,12 @@ export default function Template({cv, anonymize}: {
         <div className="resume overflow-hidden grid" id="area-cv">
             <div className="resume_left px-5 py-0">
                 <Contact cv={cv} anonymize={anonymize}></Contact>
-                <Language cv={cv}></Language>
+                {anonymize && <Language cv={cv}></Language>}
             </div>
 
-            <div className="resume_right px-5 py-0 mt-12 w-full">
+            <div className="resume_right px-5 py-0 w-full">
                 <Education cv={cv}></Education>
+                {!anonymize && <Language cv={cv}></Language>}
                 <Skill cv={cv}></Skill>
                 <Experience cv={cv}></Experience>
                 <Interest cv={cv}></Interest>

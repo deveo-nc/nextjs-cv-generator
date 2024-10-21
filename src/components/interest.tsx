@@ -11,7 +11,7 @@ export default function Interest({cv}: {cv: CVData}) {
                         <div key={i} className="interests_content hover:animate-bounce flex flex-col content-center">
                             <FontAwesomeIcon className="interests_icon" icon={[interest.iconPack, interest.icon]}>
                             </FontAwesomeIcon>
-                            <span className="interests_name">{interest.title}</span>
+                            <span className="text-center">{interest.title}</span>
                         </div>
                     );
                 })}

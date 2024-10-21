@@ -217,6 +217,7 @@ p {
   color: var(--text-color-left);
   width: var(--side-bar-width);
   left: -303px;
+  font-size: var(--small-font-size);
 }
 
 .home_img {
@@ -320,7 +321,7 @@ p {
 }
 
 .experience_description, .experience_tasks {
-  color: var(--text-color-light-right);
+  color: var(--text-color-right);
   font-size: var(--smaller-font-size);
 }
 
@@ -348,6 +349,7 @@ p {
 
 .languages_stars {
   position: initial;
+  min-width: 85px;
 }
 
 .languages_stars_checked {

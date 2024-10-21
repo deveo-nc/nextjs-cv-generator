@@ -1,0 +1,258 @@
+{
+  "lastname": "SCHAEFFER",
+  "firstname": "Laurent",
+  "profil_path": "default.webp",
+  "profession": "Ingénieur d'études et de développement",
+  "location": "98800 Nouméa",
+  "email": "laurent.schaeffer@deveo.nc",
+  "phoneWithIndicator": "+687754076",
+  "phone": "+687 75 40 76",
+  "skills": [
+    {
+      "name": "Javascript",
+      "level": "100%"
+    },
+    {
+      "name": "Java",
+      "level": "95%"
+    },
+    {
+      "name": "Angular",
+      "level": "95%"
+    },
+    {
+      "name": "HTML 5",
+      "level": "95%"
+    },
+    {
+      "name": "CSS 3",
+      "level": "85%"
+    },
+    {
+      "name": "Spring Boot",
+      "level": "85%"
+    },
+    {
+      "name": "PostgreSQL/Oracle",
+      "level": "90%"
+    },
+    {
+      "name": "ElasticSearch",
+      "level": "90%"
+    },
+    {
+      "name": "Github",
+      "level": "90%"
+    },
+    {
+      "name": "Docker",
+      "level": "90%"
+    },
+    {
+      "name": "Swift",
+      "level": "80%"
+    },
+    {
+      "name": "Node.js",
+      "level": "80%"
+    }
+  ],
+  "languages": [
+    {
+      "description": "Français",
+      "level": 5
+    },
+    {
+      "description": "Anglais",
+      "level": 4
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Ingénieur d'études et développement - DEVEO",
+      "company": "OPT | Service relation client / Telecom - Nouméa",
+      "year": "Juin 2022 - Maintenant",
+      "description": "Développement et maintenance d'applications Web et Mobile",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR, JEST, REST, SOAP"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "SPRING BOOT, SPRING BATCH, JASPER, QUARKUS, KAFKA"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT, GITLAB, JENKINS, TOWER, JFROG"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA, CONFLUENCE"
+        }
+      ],
+      "tasks": [
+        "KYC: Application de gestion de client bancaire",
+        "MYMOBILIS: Application mobile pour la suivi de conso",
+        "E-Stock: Application mobile d’inventaire",
+        "RLDEMAT: Application de recharge liberté pour les partenaires de l’OPT",
+        "FSMO: Application de gestion des Interventions télécom sur le terrain",
+        "Producer-tiarhe: Migration Spring-Boot vers Quarkus"
+      ]
+    },
+    {
+      "title": "Concepteur / Développeur - OPT",
+      "company": "OPT | Service postal - Nouméa",
+      "year": "Avril 2020 - Avril 2022",
+      "description": "Développement et maintenance d'applications pour l'optimisation des processus postaux sous Spring Boot / Angular",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR, JEST, REST, SOAP"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "SPRING BOOT, SPRING BATCH, JASPER, QUARKUS, KAFKA"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT, GITLAB, JENKINS, TOWER, JFROG"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA, CONFLUENCE"
+        }
+      ],
+      "tasks": [
+        "MAF: Application de gestion des machines à affranchir",
+        "SIOR: Application de gestion des ordres de réexpédition",
+        "SIBP: Application de gestion des boîtes postales",
+        "Mise en place d’une CI/CD avec Github Action pour le déploiment\nd’application web et mobile"
+      ]
+    },
+    {
+      "title": "Stagiaire Développeur - OPT",
+      "company": "OPT | Service postal - Nouméa",
+      "year": "Novembre 2019 - Mars 2020",
+      "description": "Projet SIDO Mobile: création d'une application mobile pour la distribution d'objet postaux",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "IONIC 4, ANDROID, JSON, REST"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "SPRING BOOT 2, SPRING BATCH"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GITLAB"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA, CONFLUENCE"
+        }
+      ],
+      "tasks": [
+        "Etude et conception de l'application mobile",
+        "Gestion des zones blanches grâce à un fonctionnement hors ligne + syncrho",
+        "Déploiement de l'application via un store"
+      ]
+    },
+    {
+      "title": "Développeur d'applications - IRD",
+      "company": "IRD - Nouméa",
+      "year": "Août 2018 - Septembre 2019",
+      "description": "Évolution d'une application portant sur la Taxonomie terrestre de la Nouvelle-Calédonie",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR, JSON, REST"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "SPRING BOOT 2"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT"
+        }
+      ],
+      "tasks": [
+        "Mars 2019 - Septembre 2019: Second lot",
+        "Août 2018 - Novembre 2018: Premier lot"
+      ]
+    },
+    {
+      "title": "Stagiaire Développeur - IRD",
+      "company": "IRD - Nouméa",
+      "year": "Août 2017 - Janvier 2018",
+      "description": "",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR, JSON, REST"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "SPRING BOOT 2"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT"
+        }
+      ],
+      "tasks": [
+        "Transition et Normalisation d'une base de données Access vers PostgreSQL pour utilisation au niveau national.",
+        "Développement d’une application portant sur la taxonomie en Nouvelle-Calédonie – Django/Python"
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "title": "MIAGE - Méthode Informatique appliquée à la gestion d'entreprises",
+      "studies": "Université Claude Bernard Lyon 1 - Lyon - France",
+      "year": "2018 - 2020"
+    },
+    {
+      "title": "Licence Informatique",
+      "studies": "Université de Nouvelle-Calédonie - Nouméa - Nouvelle-Calédonie",
+      "year": "2015 - 2017"
+    }
+  ],
+  "interests": [
+    {
+      "title": "Films/Séries",
+      "icon": "fa-film",
+      "iconPack": "fas"
+    },
+    {
+      "title": "Programmation",
+      "icon": "fa-code",
+      "iconPack": "fas"
+    },
+    {
+      "title": "Street Working",
+      "icon": "fa-person-running",
+      "iconPack": "fas"
+    }
+  ]
+}
