@@ -3,10 +3,10 @@
   "firstname": "Damien",
   "profil_path": "default.webp",
   "profession": "Développeur Fullstack",
-  "location": "11 Rue Albert 1er - Vallée des Colons - 98800 Nouméa",
+  "location": "11 Rue Albert 1er - 98800 Nouméa",
   "email": "damien.meneghetti@deveo.nc",
   "phoneWithIndicator": "+687959112",
-  "phone": "95 91 12",
+  "phone": "+687 95 91 12",
   "skills": [
     {
       "name": "Javascript",
@@ -49,43 +49,43 @@
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "Jenkins",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "Hudson",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "SonarQube",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "Hibernate",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "ExtJS",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "JUnit",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "TomCat",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "Couchbase",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "Amazon Redshift",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "Quality Center",
       "level": "80%"
     }
   ],
@@ -173,10 +173,10 @@
       ]
     },
     {
-      "title": "Ingénieur d'étude et développement - DEVEO",
-      "company": "OPT | Service postal - Nouméa",
+      "title": "Développeur Fullstack - DEVEO",
+      "company": "OPT | Service Relation Client - Nouméa",
       "year": "Novembre 2021 - Juin 2022",
-      "description": "Projet BP Web",
+      "description": "Projet KWC",
       "environments": [
         {
           "iconPack": "fab",
@@ -205,6 +205,275 @@
         "Ultrices magnis nostra justo mi convallis aliquam.",
         "Laoreet curabitur massa litora blandit odio vulputate dui nostra molestie luctus."
       ]
+    },
+    {
+      "title": "Scrum master / Développeur Fullstack - VIRTUAL-EXPO",
+      "company": "VIRTUAL-EXPO | Service dqzd - France",
+      "year": "Novembre 2018 - Juin 2021",
+      "description": "Migration technique d'une marketplace B2B sujette à de fortes contraintes SEO & performances, amélioration du côté ‘responsive’ du parc applicatif.",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "REACT, HTML5, CSS3, WEBVITALS, LIGHTOUSE"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, JPA, MYSQL, JUNIT"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "VISUAL STUDIO CODE, GIT, JENKINS"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA"
+        }
+      ],
+      "tasks": [
+        "Migration de JSP vers React JS d’une application Web",
+        "Analyse et optimisation des performances et du référencement",
+        "Amélioration du comportement mobile des back-offices"
+      ]
+    },
+    {
+      "title": "Team leader / Développeur Fullstack - SMARTTRADE",
+      "company": "SMARTTRADE | Service dqzd - France",
+      "year": "Juin 2016 - Novembre 2018",
+      "description": "Refonte technique et ergonomique d'une application d’administration permettant de configurer et de monitorer les activités de trading",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "JAVASCRIPT, HTML5, CSS3"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, GWT, JAVERS, SPRING BOOT, SPRING BATCH, SPRING DATA, JPA, MYSQL, JUNIT"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "ECLIPSE, GIT, JENKINS, BAMBOO"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM"
+        }
+      ],
+      "tasks": [
+        "Définition de l’architecture logicielle du projet",
+        "Conception et développement d’un framework de validation et d’audit",
+        "Remaniement de la UI/UX centré autour du besoin fonctionnel",
+        "Gestion d’une équipe"
+      ]
+    },
+    {
+      "title": "Développeur Fullstack - TAPVALUE / INSTORE·DIGITAL",
+      "company": "TAPVALUE / INSTORE·DIGITAL | Service dqzd - France",
+      "year": "Juin 2014 - Novembre 2016",
+      "description": "Conception et développement d'une plateforme permettant d’analyser et de comprendre le parcours client en magasin et sur le web, et d’interagir avec ce dernier afin de monétiser l’information",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "JAVASCRIPT, GWT, HTML5, CSS3, BOOTSTRAP"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, JPA, TOMCAT, SPRING MVC, POSTGRESQL, COUCHBASE, ELASTICSEARCH, JUNIT, AMAZON REDSHIFT"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT, JENKINS"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM"
+        }
+      ],
+      "tasks": [
+        "Collecte, analyse, et consolidation de données omnichannel en temps réel",
+        "Réalisation de tableaux de bord dédiés à la collecte de statistiques",
+        "Intégration des librairies tierces : Highcharts, jsPlumb, D3.js, heatmap.js",
+        "Prise en charge de la partie UI/UX et du Design System de l’application"
+      ]
+    },
+    {
+      "title": "Ingénieur Etudes et Développement - SII",
+      "company": "SOFTWAY MEDICAL | Service dqzd - France",
+      "year": "Juin 2013 - Novembre 2014",
+      "description": "Internationalisation d'un ERP médical",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "REST, JSON, RTC"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, JPA, TOMCAT, ORACLE, JUNIT, JSP, STRUTS"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "ECLIPSE, GIT, JENKINS"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM"
+        }
+      ],
+      "tasks": [
+        "Recueil et analyse du besoin, recherche de solutions",
+        "Étude des problématiques d’architecture liées à la localisation des données",
+        "Mise en place de mécanismes d’internationalisation transverses",
+        "TDD"
+      ]
+    },
+    {
+      "title": "Développeur Fullstack - SII",
+      "company": "GRAND PORT MARITIME DE MARSEILLE | Service dqzd - France",
+      "year": "Juin 2012 - Novembre 2013",
+      "description": "Conception d'un système de paramétrage et de contôle des escales maritimes",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "CSS"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, GWT, JPA, JBOSS, ORACLE"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "ECLIPSE, GIT, JENKINS"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, UML"
+        }
+      ],
+      "tasks": [
+        "Conception et développement d'un socle technique",
+        "Réalisation d'une bibliothèque de composants basé sur le framework GWT",
+        "Contrôle qualité et intégration continue"
+      ]
+    },
+    {
+      "title": "Tech leader / Développeur Fullstack - SII",
+      "company": "FRANCE TELECOM | Service dqzd - France",
+      "year": "Juin 2010 - Novembre 2012",
+      "description": "Conception d’une application de prévention des surconsommations téléphoniques",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "HTML"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, HUDSON, WICKET, JPA, MYSQL, SPRING BATCH, JONAS, JUNIT, JSP, STRUTS"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "ECLIPSE, SVN, JENKINS, QUALITY CENTER"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "UML"
+        }
+      ],
+      "tasks": [
+        "Étude de faisabilité",
+        "Définition de l’architecture logicielle du projet",
+        "Conception, développement et maintenance de l’application",
+        "Suivi de production"
+      ]
+    },
+    {
+      "title": "Ingénieur Etudes et Développement - Capgemini",
+      "company": "AMADEUS | Sofia-Antipolis - Nice - France",
+      "year": "Juin 2009 - Novembre 2010",
+      "description": "Maintenance corrective et évolutive d’un outil de réservation global pour le marché des voyages d’affaires : Amadeus e-Travel Management",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "JAVASCRIPT, HTML"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, JSP, WEBLOGIC SERVER, CLEARCASE, SQL, QUERY ANALYZER, SPRING WEB FLOW"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "ECLIPSE, QUALITY CENTER"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM"
+        }
+      ],
+      "tasks": [
+        "Intégration d’un contexte international",
+        "Validation logicielle, exécution de campagnes de tests",
+        "Suivi des bugs et anomalies via WIN@proach"
+      ]
+    },
+    {
+      "title": "Ingénieur Etudes et Développement - Capgemini",
+      "company": "ASSISTANCE PUBLIQUE | Hôpitaux de Marseille - Marseille - France",
+      "year": "Juin 2007 - Novembre 2009",
+      "description": "Conception, développement et maintenance d'applications Web de gestion des ressources humaines",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "HTML, AJAX, EXTJS"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, GWT, JPA, HIBERNATE, TOMCAT, ORACLE, JUNIT, JSP, STRUTS, SPRING MVC"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "ECLIPSE, SVN"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM"
+        }
+      ],
+      "tasks": [
+        "Conception et développement d’une application de suivi de carrière du personnel hospitalier",
+        "Implémentation d’interfaces riche à l'aide de Ext-JS et GWT",
+        "Création de modules d'import / export de données au format pdf",
+        "Élaboration de tests unitaires"
+      ]
     }
   ],
   "educations": [
@@ -217,6 +486,11 @@
       "title": "CPGE, MATHEMATIQUES ET PHYSIQUE",
       "studies": "Lycée Clémenceau - Reims - France",
       "year": "2001 - 2003"
+    },
+    {
+      "title": "BACCALAUREAT SCIENTIFIQUE",
+      "studies": "Lycée Blaise Pascal - Saint Dizier - France",
+      "year": "1998 - 2001"
     }
   ],
   "interests": [
