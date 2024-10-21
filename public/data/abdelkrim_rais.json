@@ -3,10 +3,10 @@
   "firstname": "Abdelkrim",
   "profil_path": "default.webp",
   "profession": "Ingénieur d'études et de développement",
-  "location": "dzqdqzddqzd - 98800 Nouméa",
+  "location": "98800 Nouméa",
   "email": "arais@deveo.nc",
   "phoneWithIndicator": "+687526991",
-  "phone": "52 69 91",
+  "phone": "+687 52 69 91",
   "skills": [
     {
       "name": "Javascript",
@@ -14,31 +14,31 @@
     },
     {
       "name": "Java",
-      "level": "95%"
+      "level": "100%"
     },
     {
       "name": "Angular",
-      "level": "95%"
+      "level": "80%"
     },
     {
       "name": "HTML 5",
-      "level": "95%"
+      "level": "100%"
     },
     {
       "name": "CSS 3",
-      "level": "85%"
+      "level": "70%"
     },
     {
       "name": "Spring Boot",
-      "level": "85%"
+      "level": "100%"
     },
     {
       "name": "PostgreSQL/Oracle",
-      "level": "90%"
+      "level": "100%"
     },
     {
       "name": "ElasticSearch/Solr",
-      "level": "90%"
+      "level": "100%"
     },
     {
       "name": "Github",
@@ -46,10 +46,18 @@
     },
     {
       "name": "ExtJS",
-      "level": "70%"
+      "level": "90%"
     },
     {
       "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "VueJS",
+      "level": "80%"
+    },
+    {
+      "name": "C/C++",
       "level": "80%"
     },
     {
@@ -57,31 +65,23 @@
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "Git/SVN",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "Struts",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "JPA/Hibernate",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "UML",
       "level": "80%"
     },
     {
-      "name": "Docker",
-      "level": "80%"
-    },
-    {
-      "name": "Docker",
-      "level": "80%"
-    },
-    {
-      "name": "Docker",
+      "name": "JIRA/Confluence",
       "level": "80%"
     }
   ],
@@ -104,22 +104,22 @@
       "title": "Ingénieur d'études et développement / Responsable TMA - DEVEO",
       "company": "OPT | Service postal - Nouméa",
       "year": "Juin 2019 - Maintenant",
-      "description": "Projet SIDO",
+      "description": "Tierce Maintenance Applicative du logiciel SIDO (Suivi Informatisé Des Objets):",
       "environments": [
         {
           "iconPack": "fab",
           "icon": "angular",
-          "description": "ANGULAR 18, JSON, REST"
+          "description": "EXTJS, JSON, REST"
         },
         {
           "iconPack": "fas",
           "icon": "leaf",
-          "description": "SPRING BOOT 3, SPRING BATCH, JASPER"
+          "description": "JAVA, SPRING BOOT, MAVEN, SPRING BATCH, POSTGRESQL, HIBERNATE, JPA"
         },
         {
           "iconPack": "fab",
           "icon": "github",
-          "description": "INTELIJ, GIT"
+          "description": "INTELIJ, GIT, SENCHA ARCHITECT, JENKINS"
         },
         {
           "iconPack": "fas",
@@ -128,33 +128,34 @@
         }
       ],
       "tasks": [
-        "TMA de l'application SIDO (Suivi Informatisé Des Objets)",
-        "Cubilia a hac purus duis lacinia quis.",
-        "Est sapien nisi tristique blandit justo integer vestibulum sit felis eu.",
-        "Ultrices magnis nostra justo mi convallis aliquam.",
-        "Laoreet curabitur massa litora blandit odio vulputate dui nostra molestie luctus."
+        "Chiffrage, élaboration des devis et planification des évolutions selon les priorités",
+        "Étude, réalisation et suivi de la maintenance évolutive et corrective",
+        "Animation de Comités de maintenance et de pilotage",
+        "Organisation et planification des livraisons",
+        "Rédaction des spécifications fonctionnelles détaillées",
+        "Gestion des risques"
       ]
     },
     {
       "title": "Developpeur Fullstack - DEVEO",
       "company": "Province Sud | DSIN - Nouméa",
-      "year": "Septembre 2018 - Juin 2019",
-      "description": "Projet BOOST",
+      "year": "Janvier 2019 - Décembre 2019",
+      "description": "Projet BOOST: Application de gestion des offres et demandes d’emploi en Nouvelle Calédonie.",
       "environments": [
         {
           "iconPack": "fab",
           "icon": "angular",
-          "description": "ANGULAR 18, JSON, REST"
+          "description": "EXTJS, ANGULAR, JSON, REST"
         },
         {
           "iconPack": "fas",
           "icon": "leaf",
-          "description": "SPRING BOOT 3, SPRING BATCH, JASPER"
+          "description": "JAVA, GROOVY, GRAILS, SPRING, JASPER, POSTGRESQL, HIBERNATE"
         },
         {
           "iconPack": "fab",
           "icon": "github",
-          "description": "INTELIJ, GIT"
+          "description": "INTELIJ, GIT, SENCHA ARCHITECT"
         },
         {
           "iconPack": "fas",
@@ -163,32 +164,31 @@
         }
       ],
       "tasks": [
-        "Cubilia a hac purus duis lacinia quis.",
-        "Est sapien nisi tristique blandit justo integer vestibulum sit felis eu.",
-        "Ultrices magnis nostra justo mi convallis aliquam.",
-        "Laoreet curabitur massa litora blandit odio vulputate dui nostra molestie luctus."
+        "Étude et développement des fonctionnalités du projet (FRONT-END et BACK-END)",
+        "Responsable de la TMA BOOST (Tierce Maintenance Applicative)",
+        "Conception et développement de formulaires"
       ]
     },
     {
       "title": "Developpeur Fullstack - DEVEO",
       "company": "Province Sud | DSIN - Nouméa",
-      "year": "Septembre 2018 - Juin 2019",
-      "description": "Projet BOOST",
+      "year": "Octobre 2018 - Décembre 2018",
+      "description": "Projet OCMC:  Développement d’une application from scratch qui permet d’estimer la dette écologique d’un projet ou toute activité portant impact environnemental et déterminer un volume de mesures compensatoires équivalent pour équilibrer le bilan écologique",
       "environments": [
         {
           "iconPack": "fab",
           "icon": "angular",
-          "description": "ANGULAR 18, JSON, REST"
+          "description": "EXTJS, VUEJS, JSON, REST"
         },
         {
           "iconPack": "fas",
           "icon": "leaf",
-          "description": "SPRING BOOT 3, SPRING BATCH, JASPER"
+          "description": "JAVA, GROOVY, GRAILS, SPRING, JASPER, POSTGRESQL, HIBERNATE"
         },
         {
           "iconPack": "fab",
           "icon": "github",
-          "description": "INTELIJ, GIT"
+          "description": "INTELIJ, GIT, SENCHA ARCHITECT"
         },
         {
           "iconPack": "fas",
@@ -197,10 +197,10 @@
         }
       ],
       "tasks": [
-        "Cubilia a hac purus duis lacinia quis.",
-        "Est sapien nisi tristique blandit justo integer vestibulum sit felis eu.",
-        "Ultrices magnis nostra justo mi convallis aliquam.",
-        "Laoreet curabitur massa litora blandit odio vulputate dui nostra molestie luctus."
+        "Conception et mise en place de la base de données",
+        "Développement des écrans de paramétrage pour les milieux naturels, les opérations, les indicateurs écologiques et de la formule de calcul",
+        " Gestion de l’archivage des versions des paramètres et de la formule de calcul",
+        "Développement d’un formulaire web dynamique pour la saisie, le calcul, l’import et l’export des projets"
       ]
     }
   ],
