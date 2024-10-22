@@ -7,21 +7,6 @@
   "email": "david.brouste@deveo.nc",
   "phoneWithIndicator": "+687829897",
   "phone": "+687 82 98 97",
-  "social": [
-    {
-      "href": "https://github.com/Flaykz",
-      "description": "Flaykz",
-      "icon": "github",
-      "iconPack": "fab"
-    },
-    {
-      "href": "https://www.linkedin.com/in/davidbrouste/",
-      "description": "David BROUSTE",
-      "icon": "linkedin",
-      "iconPack": "fab"
-    }
-  ],
-  "profile": "Tech enthusiasm...",
   "skills": [
     {
       "name": "Javascript",

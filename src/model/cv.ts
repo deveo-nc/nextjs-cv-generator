@@ -1,12 +1,4 @@
-// Social Links Interface
 import {IconName} from "@fortawesome/free-solid-svg-icons";
-
-interface SocialLink {
-    href: string;
-    description: string;
-    icon: IconName;
-    iconPack: 'fas'|'fab';
-}
 
 // Skill Interface
 export interface Skill {
@@ -60,8 +52,6 @@ export interface CVData {
     email: string;
     phoneWithIndicator: string;
     phone: string;
-    social: SocialLink[];
-    profile: string;
     skills: Skill[];
     languages: Language[];
     experiences: Experience[];

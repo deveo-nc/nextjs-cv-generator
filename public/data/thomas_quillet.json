@@ -1,0 +1,295 @@
+{
+  "lastname": "QUILLET",
+  "firstname": "Thomas",
+  "profil_path": "default.webp",
+  "profession": "Ingénieur d'études et de développement",
+  "location": "98800 Nouméa",
+  "email": "thomas.quillet@deveo.nc",
+  "phoneWithIndicator": "+687931372",
+  "phone": "+687 93 13 72",
+  "skills": [
+    {
+      "name": "Javascript",
+      "level": "100%"
+    },
+    {
+      "name": "Java",
+      "level": "95%"
+    },
+    {
+      "name": "Angular",
+      "level": "95%"
+    },
+    {
+      "name": "HTML 5",
+      "level": "95%"
+    },
+    {
+      "name": "CSS 3",
+      "level": "85%"
+    },
+    {
+      "name": "Spring Boot",
+      "level": "85%"
+    },
+    {
+      "name": "PostgreSQL/Oracle",
+      "level": "90%"
+    },
+    {
+      "name": "ElasticSearch/Solr",
+      "level": "90%"
+    },
+    {
+      "name": "Github",
+      "level": "90%"
+    },
+    {
+      "name": "ExtJS",
+      "level": "70%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
+    }
+  ],
+  "languages": [
+    {
+      "description": "Français",
+      "level": 5
+    },
+    {
+      "description": "Anglais",
+      "level": 4
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Ingénieur d'études et développement - DEVEO",
+      "company": "OPT | Service GLIA - Nouméa",
+      "year": "Mai 2024 - Maintenant",
+      "description": "Développement et maintenance d'applications sous différents technologies",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR, HUGO, JSON, REST, GRPC"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, SPRING BOOT, QUARKUS, KAFKA, PYTHON, GO, GOMPLATE, CYPHER, DUCKDB, REDPANDA, ELASTIC SEARCH, POSTGRESQL"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, VISUAL STUDIO CODE, GIT, PODMAND, GITHUB ACTION"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA"
+        }
+      ],
+      "tasks": [
+        "Développement d'une API REST/GRPC avec Quarkus faisant office de Proxy pour Redpanda Console",
+        "Conteneurisation d'application sous Podman",
+        "Intégration de données dans un logiciel de cartographie de systèmes d'information",
+        "Migration de projets vers github et migration de la CI vers Github Action",
+        "Rédaction de documentation techniques",
+        "Résolution des incidents en production"
+      ]
+    },
+    {
+      "title": "Développeur base de données/Analyste de données",
+      "company": "PACK-SOLUTIONS - ?",
+      "year": "Janvier 2022 - Juin 2023",
+      "description": "Gestion des rentes et contrats d’assurance vie pour Allianz",
+      "environments": [
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, ORACLE, POSTGRESQL, TALEND, ELASTIC SEARCH"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "JENKINS, TORTOISESVN, EXCEL"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "JIRA"
+        }
+      ],
+      "tasks": [
+        "Développement de nouveaux outils pour la gestion",
+        "Automatisation des tâches en base de données",
+        "Extraction et analyse de données",
+        "Proposition de solutions au client",
+        "Surveillance des serveurs"
+      ]
+    },
+    {
+      "title": "Stagiaire, ingénieur de recherche",
+      "company": "Laboratoire IMS - Bordeaux",
+      "year": "Juillet 2020 - Août 2020 | Février 2021 - Juillet 2021",
+      "description": "Projet Européen I4EU: Recherche et développement sur le jumeau numérique:",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "HTML, JAVASCRIPT, CSS, JSON, WEBSOCKET"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, C, C++, JDBC"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "ARDUINO, SYSTEME EMBARQUE, MS ACCESS, ANYLOGIC"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "UML"
+        }
+      ],
+      "tasks": [
+        "Conception théorique du jumeau numérique",
+        "Mise en place d’un laboratoire contrôlable à distance (support du jumeau numérique)",
+        "Achat des composants du système",
+        "Développement du modèle de simulation du système",
+        "Mise en place d’une base de données relationnelle (MCD, MLD)",
+        "Développement d’un middleware d’acquisition de données en Java (WebSocket, Threads, Port Série, Bluetooth, JDBC) et modélisation de l’application avec UML",
+        "Développement des clients d’envoie de données distribués sur les systèmes embarqués",
+        "Proposition de Thèse sur l’étude du jumeau numérique (Modélisation Java, Simulation numérique)"
+      ]
+    },
+    {
+      "title": "Développeur VBA",
+      "company": "Association ESA - Bordeaux",
+      "year": "Janvier 2020 - Février 2020",
+      "description": "Développement d'un outil de comptabilité et suivi des dépenses en VBA",
+      "environments": [
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "VBA, Excel"
+        }
+      ],
+      "tasks": [
+        "Analyse des dépenses et segmentation en fonction des catégories comptables",
+        "Conception d’une interface utilisateur intuitive pour saisir les dépenses",
+        "Création d’un tableau de bord (DashBoard) pour le suivi des dépenses"
+      ]
+    },
+    {
+      "title": "Développeur d'application logiciel et Web",
+      "company": "PROJETS PERSONNELS",
+      "year": "Janvier 2022 - Maintenant",
+      "description": "Voici un ensemble de projets personnels:",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR, JSON, REST, JAVASCRIPT, HTML, CSS, SCSS, API"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, SPRING BOOT, H2, SPRING DATA, JPA, HIBERNATE"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "VISUAL STUDIO CODE, INTELIJ, GIT, DOCKER"
+        }
+      ],
+      "tasks": [
+        "Réalisation d'une application Web et résolution de casse-tête vietnamien avec Angular + Spring Boot et une base H2",
+        "Réalisation du Front d'une application de création et gestion de factures et de clients en Angular + jsPDF",
+        "Réalisation d'un solveur de Sudoku en Javascript + HTML: Algorithme de résolution (backtracking), Interface Web",
+        "Réalisation d'un site web en Javascript/HTML utilisant l'API de Sunset-Sunrise"
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "title": "Formation OpenClassrooms \"Parcours développeur Java\"",
+      "studies": "Auto Apprentissage",
+      "year": "2022 - 2023"
+    },
+    {
+      "title": "Formation OpenClassrooms \"Parcours développeur Web\"",
+      "studies": "Auto Apprentissage",
+      "year": "2021 - 2022"
+    },
+    {
+      "title": "Master Ingénierie des systèmes complexes",
+      "studies": "Université de Bordeaux \"Sciences et Technologies\" - Bordeaux - France",
+      "year": "2018 - 2021"
+    },
+    {
+      "title": "Licence EEA (Electronique, Energie, Automatique)",
+      "studies": "Université de Bordeaux \"Sciences et Technologies\" - Bordeaux - France",
+      "year": "2016 - 2018"
+    }
+  ],
+  "interests": [
+    {
+      "title": "Movies/Series",
+      "icon": "fa-film",
+      "iconPack": "fas"
+    },
+    {
+      "title": "Padel",
+      "icon": "fa-table-tennis-paddle-ball",
+      "iconPack": "fas"
+    },
+    {
+      "title": "Program",
+      "icon": "fa-code",
+      "iconPack": "fas"
+    },
+    {
+      "title": "Running",
+      "icon": "fa-person-running",
+      "iconPack": "fas"
+    }
+  ]
+}

@@ -1,27 +1,12 @@
 {
   "lastname": "RAIS",
   "firstname": "Abdelkrim",
-  "profil_path": "jean_paul_olive.webp",
+  "profil_path": "default.webp",
   "profession": "Ingénieur d'études et de développement",
-  "location": "dzqdqzddqzd - 98800 Nouméa",
+  "location": "98800 Nouméa",
   "email": "arais@deveo.nc",
   "phoneWithIndicator": "+687526991",
-  "phone": "52 69 91",
-  "social": [
-    {
-      "href": "https://github.com/arais",
-      "description": "arais",
-      "icon": "github",
-      "iconPack": "fab"
-    },
-    {
-      "href": "https://www.linkedin.com/in/arais/",
-      "description": "Abdelkrim RAIS",
-      "icon": "linkedin",
-      "iconPack": "fab"
-    }
-  ],
-  "profile": "dqzdqzdq  dqz qdd zqd qz d zq....",
+  "phone": "+687 52 69 91",
   "skills": [
     {
       "name": "Javascript",
@@ -29,31 +14,31 @@
     },
     {
       "name": "Java",
-      "level": "95%"
+      "level": "100%"
     },
     {
       "name": "Angular",
-      "level": "95%"
+      "level": "80%"
     },
     {
       "name": "HTML 5",
-      "level": "95%"
+      "level": "100%"
     },
     {
       "name": "CSS 3",
-      "level": "85%"
+      "level": "70%"
     },
     {
       "name": "Spring Boot",
-      "level": "85%"
+      "level": "100%"
     },
     {
       "name": "PostgreSQL/Oracle",
-      "level": "90%"
+      "level": "100%"
     },
     {
       "name": "ElasticSearch/Solr",
-      "level": "90%"
+      "level": "100%"
     },
     {
       "name": "Github",
@@ -61,10 +46,18 @@
     },
     {
       "name": "ExtJS",
-      "level": "70%"
+      "level": "90%"
     },
     {
       "name": "Docker",
+      "level": "80%"
+    },
+    {
+      "name": "VueJS",
+      "level": "80%"
+    },
+    {
+      "name": "C/C++",
       "level": "80%"
     },
     {
@@ -72,31 +65,23 @@
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "Git/SVN",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "Struts",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "JPA/Hibernate",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "UML",
       "level": "80%"
     },
     {
-      "name": "Docker",
-      "level": "80%"
-    },
-    {
-      "name": "Docker",
-      "level": "80%"
-    },
-    {
-      "name": "Docker",
+      "name": "JIRA/Confluence",
       "level": "80%"
     }
   ],
@@ -119,22 +104,22 @@
       "title": "Ingénieur d'études et développement / Responsable TMA - DEVEO",
       "company": "OPT | Service postal - Nouméa",
       "year": "Juin 2019 - Maintenant",
-      "description": "Projet SIDO",
+      "description": "Tierce Maintenance Applicative du logiciel SIDO (Suivi Informatisé Des Objets):",
       "environments": [
         {
           "iconPack": "fab",
           "icon": "angular",
-          "description": "ANGULAR 18, JSON, REST"
+          "description": "EXTJS, JSON, REST"
         },
         {
           "iconPack": "fas",
           "icon": "leaf",
-          "description": "SPRING BOOT 3, SPRING BATCH, JASPER"
+          "description": "JAVA, SPRING BOOT, MAVEN, SPRING BATCH, POSTGRESQL, HIBERNATE, JPA"
         },
         {
           "iconPack": "fab",
           "icon": "github",
-          "description": "INTELIJ, GIT"
+          "description": "INTELIJ, GIT, SENCHA ARCHITECT, JENKINS"
         },
         {
           "iconPack": "fas",
@@ -143,33 +128,34 @@
         }
       ],
       "tasks": [
-        "TMA de l'application SIDO (Suivi Informatisé Des Objets)",
-        "Cubilia a hac purus duis lacinia quis.",
-        "Est sapien nisi tristique blandit justo integer vestibulum sit felis eu.",
-        "Ultrices magnis nostra justo mi convallis aliquam.",
-        "Laoreet curabitur massa litora blandit odio vulputate dui nostra molestie luctus."
+        "Chiffrage, élaboration des devis et planification des évolutions selon les priorités",
+        "Étude, réalisation et suivi de la maintenance évolutive et corrective",
+        "Animation de Comités de maintenance et de pilotage",
+        "Organisation et planification des livraisons",
+        "Rédaction des spécifications fonctionnelles détaillées",
+        "Gestion des risques"
       ]
     },
     {
       "title": "Developpeur Fullstack - DEVEO",
       "company": "Province Sud | DSIN - Nouméa",
-      "year": "Septembre 2018 - Juin 2019",
-      "description": "Projet BOOST",
+      "year": "Janvier 2019 - Décembre 2019",
+      "description": "Projet BOOST: Application de gestion des offres et demandes d’emploi en Nouvelle Calédonie.",
       "environments": [
         {
           "iconPack": "fab",
           "icon": "angular",
-          "description": "ANGULAR 18, JSON, REST"
+          "description": "EXTJS, ANGULAR, JSON, REST"
         },
         {
           "iconPack": "fas",
           "icon": "leaf",
-          "description": "SPRING BOOT 3, SPRING BATCH, JASPER"
+          "description": "JAVA, GROOVY, GRAILS, SPRING, JASPER, POSTGRESQL, HIBERNATE"
         },
         {
           "iconPack": "fab",
           "icon": "github",
-          "description": "INTELIJ, GIT"
+          "description": "INTELIJ, GIT, SENCHA ARCHITECT"
         },
         {
           "iconPack": "fas",
@@ -178,27 +164,60 @@
         }
       ],
       "tasks": [
-        "Cubilia a hac purus duis lacinia quis.",
-        "Est sapien nisi tristique blandit justo integer vestibulum sit felis eu.",
-        "Ultrices magnis nostra justo mi convallis aliquam.",
-        "Laoreet curabitur massa litora blandit odio vulputate dui nostra molestie luctus."
+        "Étude et développement des fonctionnalités du projet (FRONT-END et BACK-END)",
+        "Responsable de la TMA BOOST (Tierce Maintenance Applicative)",
+        "Conception et développement de formulaires"
       ]
     },
     {
       "title": "Developpeur Fullstack - DEVEO",
       "company": "Province Sud | DSIN - Nouméa",
-      "year": "Septembre 2018 - Juin 2019",
-      "description": "Projet BOOST",
+      "year": "Octobre 2018 - Décembre 2018",
+      "description": "Projet OCMC: Développement d’une application from scratch qui permet d’estimer la dette écologique d’un projet ou toute activité portant impact environnemental et déterminer un volume de mesures compensatoires équivalent pour équilibrer le bilan écologique",
       "environments": [
         {
           "iconPack": "fab",
           "icon": "angular",
-          "description": "ANGULAR 18, JSON, REST"
+          "description": "EXTJS, VUEJS, JSON, REST"
         },
         {
           "iconPack": "fas",
           "icon": "leaf",
-          "description": "SPRING BOOT 3, SPRING BATCH, JASPER"
+          "description": "JAVA, GROOVY, GRAILS, SPRING, JASPER, POSTGRESQL, HIBERNATE"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT, SENCHA ARCHITECT"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA"
+        }
+      ],
+      "tasks": [
+        "Conception et mise en place de la base de données",
+        "Développement des écrans de paramétrage pour les milieux naturels, les opérations, les indicateurs écologiques et de la formule de calcul",
+        "Gestion de l’archivage des versions des paramètres et de la formule de calcul",
+        "Développement d’un formulaire web dynamique pour la saisie, le calcul, l’import et l’export des projets"
+      ]
+    },
+    {
+      "title": "Ingénieur Chef de Projets - DEVEO",
+      "company": "AIRPROJECT - Nouméa",
+      "year": "Juillet 2018 - Septembre 2018",
+      "description": "Projet AirMapCloud: Application web qui permet de faire de la visualisation, la création et l’analyse des formes, ainsi que la comparaison des données cartographiques",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR, REST"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, KAFKA, KUBERNATE"
         },
         {
           "iconPack": "fab",
@@ -208,14 +227,233 @@
         {
           "iconPack": "fas",
           "icon": "tasks",
+          "description": "AGILE SCRUM, REDMINE"
+        }
+      ],
+      "tasks": [
+        "Lancement du projet et mise en place de la méthode agile scrum",
+        "Animation des réunions et des ateliers fonctionnels avec le client",
+        "Rédaction des user stories",
+        "Recette et validation"
+      ]
+    },
+    {
+      "title": "Ingénieur d'études et développement - CALINFO",
+      "company": "OPT - Nouméa",
+      "year": "Mars 2017 - Juin 2018",
+      "description": "Projet SIDO: Application web de suivi des colis dans tout le réseau OPT-NC",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "EXTJS, REST, JSON"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, SPRING BOOT, MAVEN, KAFKA, KUBERNATE, POSTGRESQL, HIBERNATE"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT, SENCHA ARCHITECT, JENKINS"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
           "description": "AGILE SCRUM, JIRA"
         }
       ],
       "tasks": [
-        "Cubilia a hac purus duis lacinia quis.",
-        "Est sapien nisi tristique blandit justo integer vestibulum sit felis eu.",
-        "Ultrices magnis nostra justo mi convallis aliquam.",
-        "Laoreet curabitur massa litora blandit odio vulputate dui nostra molestie luctus."
+        "Modélisation de la base de données du projet",
+        "Etude et développement des fonctionnalités (FRONT-END et BACK-END)"
+      ]
+    },
+    {
+      "title": "Chef de projets",
+      "company": "PEECKUP - Nouméa",
+      "year": "Décembre 2015 - Décembre 2018",
+      "description": "Projet PEECKUP: Application mobile de transport entre particuliers:",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "CORDOVA, REST, JSON"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, MAVEN, MYSQL, SPRING"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "XCODE, ECLIPSE, GIT"
+        }
+      ],
+      "tasks": [
+        "Rédaction des spécifications fonctionnelles",
+        "Conception et mise en place du modèle de données",
+        "Build, recette et distribution sur l’Apple Store"
+      ]
+    },
+    {
+      "title": "Chef de projets technique/Assistant à la maîtrise d’ouvrage",
+      "company": "MALAKOFF MEDERIC - Paris",
+      "year": "Juin 2012 - Décembre 2015",
+      "description": "Projet EDIGROUP: Mise en place d’une brique éditique transverse à disposition de tous les applicatifs du SI",
+      "environments": [
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, MAVEN, JPA, DB2, SPRING, JBOSS, SEAM, SPRING BATCH"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "ECLIPSE, SVN"
+        }
+      ],
+      "tasks": [
+        "Coordination des équipes MOA/ MOE : accompagnement dans l’expression du besoin et proposition de solutions appropriées",
+        "Gestion de l’équipe de développement (4 à 8 personnes) et supervision des développements",
+        "Coordination des équipes transverses et pilotage des mises en production",
+        "Conception et mise en place du modèle de la base de données",
+        "Rédaction de la documentation du projet sur Confluence",
+        "Responsable des livraisons et garant de la qualité des livrables"
+      ]
+    },
+    {
+      "title": "Chef de projets/Ingénieur d’études et de développement",
+      "company": "EDENRED - Paris",
+      "year": "Mars 2011 - Avril 2012",
+      "description": "Projet: Programmes de fidélité (Air caraïbes, Printemps,  Alcatel,..)",
+      "environments": [
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, MAVEN, JPA, POSTGRESQL, SPRING, INFORMIX, STRUTS, HIBERNATE, CVS, PDI"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "ECLIPSE, SVN"
+        }
+      ],
+      "tasks": [
+        "Gestion de l’équipe de développement (4 personnes) et coordination avec les équipes MOA et DSI",
+        "Planification et suivi de tâches de maintenance corrective et évolutive des applications de fidélité (8 applications)",
+        "Etude, chiffrage, conception et développement des maintenances évolutives et correctives",
+        "Support niveau 2 : analyses causales des problèmes remontés en production",
+        "Mise à jour des spécifications techniques et fonctionnelles des projets",
+        "Accompagnement des clients et suivi des plannings de réversibilité (Extraction et contrôle de la qualité des données)"
+      ]
+    },
+    {
+      "title": "Ingénieur d’études et de développement",
+      "company": "Bibliothèque Nationale de France - Paris",
+      "year": "Juin 2009 - Février 2011",
+      "description": "Projet TMA-BNF: Contrat de maintenance (TMA) de toutes les applications du SI de la BNF",
+      "environments": [
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, MAVEN, JPA, POSTGRESQL, SPRING MVC, HIBERNATE, ORACLE"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "ECLIPSE, SVN"
+        }
+      ],
+      "tasks": [
+        "Gestion de l’équipe de développement de 3 à 7 personnes (méthode agile scrum)",
+        "Définition et planification des jalons de livraison",
+        "Suivi de développement, intégration et livraison",
+        "Gestion du plan de charge (consommé, reste à faire, reste à engager)",
+        "Référent technique et fonctionnel",
+        "Etude, chiffrage et développement des maintenances évolutives et correctives",
+        "Gestion des risques"
+      ]
+    },
+    {
+      "title": "Chef de projets/Ingénieur d’études et de développement",
+      "company": "Haute Autorité de la Santé - Paris",
+      "year": "Juin 2008 - Juin 2009",
+      "description": "Projet TMA-SIAM: Système d'Information de l'Accréditation des Médecins",
+      "environments": [
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, MYSQL, JSP, RPM"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "ECLIPSE, SVN, OPENLDAP"
+        }
+      ],
+      "tasks": [
+        "Gestion de l’équipe de développement (5 à 9 personnes)",
+        "Animation de Comités de suivi et de pilotage",
+        "Gestion du plan de charge (consommé, reste à faire, reste à engager)",
+        "Organisation et planification des livraisons",
+        "Rédaction des spécifications fonctionnelles détaillées",
+        "Gestion des risques",
+        "Mise en place de l'application sur les différents environnements de travail (développement, intégration et production)",
+        "Chiffrage, élaboration des devis et planification des évolutions selon les priorités",
+        "Étude, réalisation et suivi de la maintenance évolutive et corrective"
+      ]
+    },
+    {
+      "title": "Ingénieur d’études et de développement",
+      "company": "NEXTIRAONE - Paris",
+      "year": "Février 2008 - Mai 2008",
+      "description": "Projet CRM: Customer Relashionship Management",
+      "environments": [
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, STRUTS"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "ECLIPSE, SAP, MVC2, NETWEAVER"
+        }
+      ],
+      "tasks": [
+        "Maintenance évolutive d’un portail Web SAP, ICSS (Internet Customer Self Service)",
+        "Etude, configuration et développement des besoins spécifiques",
+        "Recette et livraison"
+      ]
+    },
+    {
+      "title": "Ingénieur d’études et de développement",
+      "company": "CARREFOUR - Paris",
+      "year": "Août 2005 - Janvier 2008",
+      "description": "Projet GOLD: Mise en place d’une application de gestion de chaîne logistique",
+      "environments": [
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "JAVA, STRUTS, ORACLE, POSTGRESQL, PVCS, CVS, SHELL, PERL"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "ECLIPSE, GAIA, ICAN, MQSERIES, TOAD"
+        }
+      ],
+      "tasks": [
+        "Configuration, étude et réalisation des flux de données entre G.O.L.D  (le système de gestion commerciale) et les différents serveurs, relatifs aux activités de la grande distribution : descentes des caisses, remontée des ventes, envoi des propositions de commandes, récupération des bons de livraison, etc",
+        "Tierce Maintenance Applicative (Support technique et astreinte téléphonique, investigations, corrections, évolutions et livraisons)",
+        "Rédaction de la documentation du projet",
+        "Formation des membres d'une équipe de support technique",
+        "Refonte des interfaces EAI en PERL",
+        "Développement en PL/SQL de packages d’interfaçage entre l’ancien et le nouveau système",
+        "Etude et réalisation des écrans spécifiques : calcul de la marge brut, configuration des impressions des rapports, suivi des commandes, impression des étiquettes",
+        "Etude et développement d’un daemon FOP en JAVA"
       ]
     }
   ],

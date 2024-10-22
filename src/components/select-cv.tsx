@@ -12,14 +12,8 @@ export default function SelectCV({ cvFiles, selectedCV }: { cvFiles: string[], s
     const [cvName, setCvName] = useState(selectedCV);
 
     useEffect(() => {
-        const isAnonymized = localStorage.getItem('anonymize') === 'enabled';
-        setIsAnonymized(isAnonymized);
-        const isAnonymeAndWrongUrl = isAnonymized && !pathname.endsWith('/anonyme');
-        const isNotAnonymeAndWrongUrl = !isAnonymized && pathname.endsWith('/anonyme');
-        if (isAnonymeAndWrongUrl || isNotAnonymeAndWrongUrl) {
-            router.push(`/profil/${cvName}${isAnonymized ? '/anonyme' : ''}`);
-        }
-    }, [cvName, pathname, router]);
+        setIsAnonymized(pathname.endsWith('/anonyme'));
+    }, [pathname]);
 
     const handleCVChange = (cvName: string) => {
         setCvName(cvName);
@@ -27,7 +21,6 @@ export default function SelectCV({ cvFiles, selectedCV }: { cvFiles: string[], s
     };
 
     const handleAnonymizeChange = (isAnonymized: boolean) => {
-        localStorage.setItem('anonymize', isAnonymized ? 'enabled' : 'disabled');
         setIsAnonymized(isAnonymized);
         router.push(`/profil/${cvName}${isAnonymized ? '/anonyme' : ''}`);
     };

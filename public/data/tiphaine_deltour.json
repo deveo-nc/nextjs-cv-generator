@@ -1,0 +1,183 @@
+{
+  "lastname": "DELTOUR",
+  "firstname": "Tiphaine",
+  "profil_path": "default.webp",
+  "profession": "Gestion de projet MOA",
+  "location": "98800 Nouméa",
+  "email": "tiphaine.deltour@deveo.nc",
+  "phoneWithIndicator": "+687??????",
+  "phone": "+687 ?? ?? ??",
+  "skills": [
+    {
+      "name": "Gestion de projets",
+      "level": "100%"
+    },
+    {
+      "name": "Pilotage de projets",
+      "level": "95%"
+    },
+    {
+      "name": "Analyse",
+      "level": "95%"
+    },
+    {
+      "name": "Synthèse",
+      "level": "95%"
+    },
+    {
+      "name": "Jira",
+      "level": "85%"
+    },
+    {
+      "name": "Confluence",
+      "level": "85%"
+    },
+    {
+      "name": "Ecoute active",
+      "level": "90%"
+    },
+    {
+      "name": "Communication",
+      "level": "90%"
+    },
+    {
+      "name": "Rigueur",
+      "level": "70%"
+    },
+    {
+      "name": "Organisation",
+      "level": "80%"
+    },
+    {
+      "name": "Réactivité",
+      "level": "80%"
+    },
+    {
+      "name": "Adaptabilité",
+      "level": "80%"
+    },
+    {
+      "name": "Anthousiaste",
+      "level": "80%"
+    },
+    {
+      "name": "Proactive",
+      "level": "80%"
+    },
+    {
+      "name": "Sql",
+      "level": "80%"
+    },
+    {
+      "name": "Oracle",
+      "level": "80%"
+    },
+    {
+      "name": "SAP",
+      "level": "80%"
+    }
+  ],
+  "languages": [
+    {
+      "description": "Français",
+      "level": 5
+    },
+    {
+      "description": "Anglais",
+      "level": 4
+    }
+  ],
+  "experiences": [
+    {
+      "title": "Chef de projet MOA - DEVEO",
+      "company": "OPT | Service Support fonctionnel - Nouméa",
+      "year": "Juin 2023 - Maintenant",
+      "description": "",
+      "environments": [],
+      "tasks": [
+        "Conception, suivi projet et déploiement d'une application mobile de saisi des inventaires",
+        "Management des projets d'évolution de l'ERP avec les équipes métier ainsi que les équipes de développement"
+      ]
+    },
+    {
+      "title": "Product Owner - HARDIS GROUP",
+      "company": "? - Grenoble",
+      "year": "Mai 2022 - Mai 2023",
+      "description": "",
+      "environments": [],
+      "tasks": [
+        "Compréhension et analyse des besoins fonctionnels des utilisateurs métier",
+        "Conception détaillée avec prise en compte des contraintes techniques et d'ergonomie",
+        "Désign d'écrans opérationnels et de paramétrage",
+        "Rédaction des tests d'acceptance",
+        "Suivi/animation projets avec les équipes de développement"
+      ]
+    },
+    {
+      "title": "Responsable Fret et Transport - SOCALOG",
+      "company": "SOCALOG - Nouméa",
+      "year": "Février 2020 - Février 2021",
+      "description": "",
+      "environments": [],
+      "tasks": [
+        "Management de l'équipe transport",
+        "Pilotage et suivi de la performance des prestataires",
+        "Gestion et coordination des prestataires de transport",
+        "Gestion de la facturation clients et transporteurs"
+      ]
+    },
+    {
+      "title": "Technicienne M2thode et Processus - SOCALOG",
+      "company": "SOCALOG - Nouméa",
+      "year": "Février 2020 - Février 2021",
+      "description": "",
+      "environments": [],
+      "tasks": [
+        "Paramétrage et optimisation du WMS Reflex en fonction des besoins et des problématiques terrain",
+        "Amélioration continue des processus",
+        "Déploiement de nouvelles procédures informatiques et formation des utilisateurs"
+      ]
+    },
+    {
+      "title": "Responsable Projet Supply Chain - ALTEN",
+      "company": "AIRBUS HELICOPTERS - Marignane",
+      "year": "Septembre 2018 - Décembre 2019",
+      "description": "",
+      "environments": [],
+      "tasks": [
+        "Paramétrage et optimisation du WMS Reflex en fonction des besoins et des problématiques terrain",
+        "Amélioration continue des processus",
+        "Déploiement de nouvelles procédures informatiques et formation des utilisateurs"
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "title": "Master Management Logistique et Stratégique",
+      "studies": "Université d'Aix-Marseille - Aix-Marseille - France",
+      "year": "2015 - 2018"
+    }
+  ],
+  "interests": [
+    {
+      "title": "Movies/Series",
+      "icon": "fa-film",
+      "iconPack": "fas"
+    },
+    {
+      "title": "Padel",
+      "icon": "fa-table-tennis-paddle-ball",
+      "iconPack": "fas"
+    },
+    {
+      "title": "Program",
+      "icon": "fa-code",
+      "iconPack": "fas"
+    },
+    {
+      "title": "Running",
+      "icon": "fa-person-running",
+      "iconPack": "fas"
+    }
+  ]
+}

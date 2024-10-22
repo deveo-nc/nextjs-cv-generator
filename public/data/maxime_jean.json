@@ -1,12 +1,12 @@
 {
-  "lastname": "OLIVE",
-  "firstname": "Jean-Paul",
+  "lastname": "RAIS",
+  "firstname": "Abdelkrim",
   "profil_path": "default.webp",
-  "profession": "Développeur Fullstack",
-  "location": "blabla - 98800 yahoué",
-  "email": "jean-paul.olive@deveo.nc",
-  "phoneWithIndicator": "+687790723",
-  "phone": "79 07 23",
+  "profession": "Ingénieur d'études et de développement",
+  "location": "dzqdqzddqzd - 98800 Nouméa",
+  "email": "arais@deveo.nc",
+  "phoneWithIndicator": "+687526991",
+  "phone": "52 69 91",
   "skills": [
     {
       "name": "Javascript",
@@ -33,7 +33,11 @@
       "level": "85%"
     },
     {
-      "name": "PostgreSQL",
+      "name": "PostgreSQL/Oracle",
+      "level": "90%"
+    },
+    {
+      "name": "ElasticSearch/Solr",
       "level": "90%"
     },
     {
@@ -41,8 +45,12 @@
       "level": "90%"
     },
     {
-      "name": "Quarkus",
-      "level": "60%"
+      "name": "ExtJS",
+      "level": "70%"
+    },
+    {
+      "name": "Docker",
+      "level": "80%"
     },
     {
       "name": "Docker",
@@ -83,84 +91,20 @@
       "level": 5
     },
     {
+      "description": "Arabe",
+      "level": 5
+    },
+    {
       "description": "Anglais",
       "level": 4
     }
   ],
   "experiences": [
     {
-      "title": "Developpeur AS400 - DEVEO",
-      "company": "OPT | Service télécom - Nouméa",
-      "year": "Mars 2023 - Maintenant",
-      "description": "Projet OPT-SMS</br>- Etude de documentation des API du prestataire de service NativIP</br>- Intégration de leurs API afin de pouvoir envoyer des SMS à l'international depuis les différentes applications de l'OPT",
-      "environments": [
-        {
-          "iconPack": "fab",
-          "icon": "angular",
-          "description": "ANGULAR 18, JSON, REST"
-        },
-        {
-          "iconPack": "fas",
-          "icon": "leaf",
-          "description": "SPRING BOOT 3, SPRING BATCH"
-        },
-        {
-          "iconPack": "fab",
-          "icon": "github",
-          "description": "INTELIJ, GIT"
-        },
-        {
-          "iconPack": "fas",
-          "icon": "tasks",
-          "description": "AGILE SCRUM, JIRA"
-        }
-      ],
-      "tasks": [
-        "Cubilia a hac purus duis lacinia quis.",
-        "Est sapien nisi tristique blandit justo integer vestibulum sit felis eu.",
-        "Ultrices magnis nostra justo mi convallis aliquam.",
-        "Laoreet curabitur massa litora blandit odio vulputate dui nostra molestie luctus."
-      ]
-    },
-    {
-      "title": "Team leader / Developpeur Fullstack - DEVEO",
-      "company": "DITTT | Service blabla - Nouméa",
-      "year": "Juin 2022 - Mars 2023",
-      "description": "Projet PICO2</br>Projet de refonte de l'application de gestion des permis de conduire</br>- Mise en place de l'architecture logiciel et encadrement de l'équipe de développement</br>- Développement de nouvelles fonctionnalités dans l'application de gestion des Permis de conduire de la DITTT</br>- 2tude, conception et développement de l'application dans une équipe de 4/5 développeurs et 1 Product Owner",
-      "environments": [
-        {
-          "iconPack": "fab",
-          "icon": "angular",
-          "description": "ANGULAR 18, JSON, REST"
-        },
-        {
-          "iconPack": "fas",
-          "icon": "leaf",
-          "description": "SPRING BOOT 3, SPRING BATCH"
-        },
-        {
-          "iconPack": "fab",
-          "icon": "github",
-          "description": "INTELIJ, GIT"
-        },
-        {
-          "iconPack": "fas",
-          "icon": "tasks",
-          "description": "AGILE SCRUM, JIRA"
-        }
-      ],
-      "tasks": [
-        "Cubilia a hac purus duis lacinia quis.",
-        "Est sapien nisi tristique blandit justo integer vestibulum sit felis eu.",
-        "Ultrices magnis nostra justo mi convallis aliquam.",
-        "Laoreet curabitur massa litora blandit odio vulputate dui nostra molestie luctus."
-      ]
-    },
-    {
-      "title": "Ingénieur d'étude et développement - DEVEO",
+      "title": "Ingénieur d'études et développement / Responsable TMA - DEVEO",
       "company": "OPT | Service postal - Nouméa",
-      "year": "Novembre 2021 - Juin 2022",
-      "description": "Projet BP Web</br>Refonte iso-fonctionnelle d'une application de gestion de parc de boîte postale</br>- Travail en mode AGILE SCRUM</br>- Migration des données de la base DB2/400 vers une base PostgreSQL</br>- Etude, conception et développement",
+      "year": "Juin 2019 - Maintenant",
+      "description": "Projet SIDO",
       "environments": [
         {
           "iconPack": "fab",
@@ -170,7 +114,76 @@
         {
           "iconPack": "fas",
           "icon": "leaf",
-          "description": "SPRING BOOT 3, SPRING BATCH"
+          "description": "SPRING BOOT 3, SPRING BATCH, JASPER"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA"
+        }
+      ],
+      "tasks": [
+        "TMA de l'application SIDO (Suivi Informatisé Des Objets)",
+        "Cubilia a hac purus duis lacinia quis.",
+        "Est sapien nisi tristique blandit justo integer vestibulum sit felis eu.",
+        "Ultrices magnis nostra justo mi convallis aliquam.",
+        "Laoreet curabitur massa litora blandit odio vulputate dui nostra molestie luctus."
+      ]
+    },
+    {
+      "title": "Developpeur Fullstack - DEVEO",
+      "company": "Province Sud | DSIN - Nouméa",
+      "year": "Septembre 2018 - Juin 2019",
+      "description": "Projet BOOST",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR 18, JSON, REST"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "SPRING BOOT 3, SPRING BATCH, JASPER"
+        },
+        {
+          "iconPack": "fab",
+          "icon": "github",
+          "description": "INTELIJ, GIT"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "tasks",
+          "description": "AGILE SCRUM, JIRA"
+        }
+      ],
+      "tasks": [
+        "Cubilia a hac purus duis lacinia quis.",
+        "Est sapien nisi tristique blandit justo integer vestibulum sit felis eu.",
+        "Ultrices magnis nostra justo mi convallis aliquam.",
+        "Laoreet curabitur massa litora blandit odio vulputate dui nostra molestie luctus."
+      ]
+    },
+    {
+      "title": "Developpeur Fullstack - DEVEO",
+      "company": "Province Sud | DSIN - Nouméa",
+      "year": "Septembre 2018 - Juin 2019",
+      "description": "Projet BOOST",
+      "environments": [
+        {
+          "iconPack": "fab",
+          "icon": "angular",
+          "description": "ANGULAR 18, JSON, REST"
+        },
+        {
+          "iconPack": "fas",
+          "icon": "leaf",
+          "description": "SPRING BOOT 3, SPRING BATCH, JASPER"
         },
         {
           "iconPack": "fab",
@@ -193,14 +206,14 @@
   ],
   "educations": [
     {
-      "title": "Titre Concepteur Architecte en Système d'Information",
-      "studies": "Conservatoire National des Arts et Métiers - ? - ?",
-      "year": "2012 - 2015"
+      "title": "DEA Informatique de l’image et du langage",
+      "studies": "INPT, Institut National Polytechnique de Toulouse - Toulouse - France",
+      "year": "2002 - 2004"
     },
     {
-      "title": "BTS Informatique: Développement d'application",
-      "studies": "Lycée du Grand Nouméa - Nouméa - Nouvelle-Calédonie",
-      "year": "2002 - 2004"
+      "title": "Ingénieur Informatique",
+      "studies": "Université d'ORAN - Oran - Algérie",
+      "year": "1999 - 2002"
     }
   ],
   "interests": [
