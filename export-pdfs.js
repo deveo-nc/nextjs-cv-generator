@@ -16,7 +16,7 @@ const cvFolder = path.join(__dirname, 'public', 'data');
 
     const cvs = jsonFiles.map((jsonName) => jsonName.replace('.json', ''));
 
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({headless: true});
     const page = await browser.newPage();
 
     for (const cv of cvs) {
