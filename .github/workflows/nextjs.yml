@@ -95,6 +95,8 @@ jobs:
           cache: "pnpm"
       - name: Install dependencies
         run: pnpm install
+      - name: Install Chromium
+        run: sudo apt-get install -y chromium-browser
       - name: Export Cvs as PDFs
         id: exportCV
         run: node ./export-pdfs.js
