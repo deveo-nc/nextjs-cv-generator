@@ -23,7 +23,7 @@ const cvFolder = path.join(__dirname, 'public', 'data');
         let url = `${baseUrl}/profil/${cv}`;
         console.log(url);
         await page.goto(url, { waitUntil: 'networkidle0' });
-        let pdfPath = path.join(__dirname, 'public/assets', `${cv.replace('/profil/', '').replace('/', '_')}.pdf`);
+        let pdfPath = path.join(__dirname, 'public/assets', `${cv.replace('/profil/', '')}.pdf`);
 
         // Création du PDF
         await page.pdf({ path: pdfPath, format: 'A4', printBackground: true });
@@ -32,7 +32,7 @@ const cvFolder = path.join(__dirname, 'public', 'data');
         url += '/anonyme';
         console.log(url);
         await page.goto(url, { waitUntil: 'networkidle0' });
-        pdfPath = path.join(__dirname, 'public/assets', `${cv.replace('/profil/', '').replace('/', '_')}.pdf`);
+        pdfPath = path.join(__dirname, 'public/assets', `${cv.replace('/profil/', '')}_anonyme.pdf`);
 
         // Création du PDF
         await page.pdf({ path: pdfPath, format: 'A4', printBackground: true });
