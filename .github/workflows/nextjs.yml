@@ -79,9 +79,25 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install pnpm
+        run: |
+          npm install -g pnpm
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "pnpm"
+      - name: Install dependencies
+        run: pnpm install
       - name: Export Cvs as PDFs
         id: exportCV
-        run: node export-pdfs.js
+        run: node ./export-pdfs.js
       - name: Create a Release
         id: create_release
         uses: actions/create-release@v1
