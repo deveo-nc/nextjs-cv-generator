@@ -94,8 +94,12 @@ jobs:
         with:
           node-version: "20"
           cache: "pnpm"
-      - name: Install dependencies
+      - name: Install puppeteer
+        id: install_puppeteer
         run: pnpm install puppeteer
+      - name: Install chrome
+        id: install_chrome
+        run: node ./node_modules/puppeteer/install.mjs
       - name: Export Cvs as PDFs
         id: exportCV
         run: node ./export-pdfs.js
