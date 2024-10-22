@@ -1,87 +1,79 @@
 {
-  "lastname": "RAIS",
-  "firstname": "Abdelkrim",
+  "lastname": "DELTOUR",
+  "firstname": "Tiphaine",
   "profil_path": "default.webp",
-  "profession": "Ingénieur d'études et de développement",
-  "location": "dzqdqzddqzd - 98800 Nouméa",
-  "email": "arais@deveo.nc",
-  "phoneWithIndicator": "+687526991",
-  "phone": "52 69 91",
+  "profession": "Gestion de projet MOA",
+  "location": "98800 Nouméa",
+  "email": "tiphaine.deltour@deveo.nc",
+  "phoneWithIndicator": "+687??????",
+  "phone": "+687 ?? ?? ??",
   "skills": [
     {
-      "name": "Javascript",
+      "name": "Gestion de projets",
       "level": "100%"
     },
     {
-      "name": "Java",
+      "name": "Pilotage de projets",
       "level": "95%"
     },
     {
-      "name": "Angular",
+      "name": "Analyse",
       "level": "95%"
     },
     {
-      "name": "HTML 5",
+      "name": "Synthèse",
       "level": "95%"
     },
     {
-      "name": "CSS 3",
+      "name": "Jira",
       "level": "85%"
     },
     {
-      "name": "Spring Boot",
+      "name": "Confluence",
       "level": "85%"
     },
     {
-      "name": "PostgreSQL/Oracle",
+      "name": "Ecoute active",
       "level": "90%"
     },
     {
-      "name": "ElasticSearch/Solr",
+      "name": "Communication",
       "level": "90%"
     },
     {
-      "name": "Github",
-      "level": "90%"
-    },
-    {
-      "name": "ExtJS",
+      "name": "Rigueur",
       "level": "70%"
     },
     {
-      "name": "Docker",
+      "name": "Organisation",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "Réactivité",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "Adaptabilité",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "Anthousiaste",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "Proactive",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "Sql",
       "level": "80%"
     },
     {
-      "name": "Docker",
+      "name": "Oracle",
       "level": "80%"
     },
     {
-      "name": "Docker",
-      "level": "80%"
-    },
-    {
-      "name": "Docker",
+      "name": "SAP",
       "level": "80%"
     }
   ],
@@ -91,129 +83,79 @@
       "level": 5
     },
     {
-      "description": "Arabe",
-      "level": 5
-    },
-    {
       "description": "Anglais",
       "level": 4
     }
   ],
   "experiences": [
     {
-      "title": "Ingénieur d'études et développement / Responsable TMA - DEVEO",
-      "company": "OPT | Service postal - Nouméa",
-      "year": "Juin 2019 - Maintenant",
-      "description": "Projet SIDO",
-      "environments": [
-        {
-          "iconPack": "fab",
-          "icon": "angular",
-          "description": "ANGULAR 18, JSON, REST"
-        },
-        {
-          "iconPack": "fas",
-          "icon": "leaf",
-          "description": "SPRING BOOT 3, SPRING BATCH, JASPER"
-        },
-        {
-          "iconPack": "fab",
-          "icon": "github",
-          "description": "INTELIJ, GIT"
-        },
-        {
-          "iconPack": "fas",
-          "icon": "tasks",
-          "description": "AGILE SCRUM, JIRA"
-        }
-      ],
+      "title": "Chef de projet MOA - DEVEO",
+      "company": "OPT | Service Support fonctionnel - Nouméa",
+      "year": "Juin 2023 - Maintenant",
+      "description": "",
+      "environments": [],
       "tasks": [
-        "TMA de l'application SIDO (Suivi Informatisé Des Objets)",
-        "Cubilia a hac purus duis lacinia quis.",
-        "Est sapien nisi tristique blandit justo integer vestibulum sit felis eu.",
-        "Ultrices magnis nostra justo mi convallis aliquam.",
-        "Laoreet curabitur massa litora blandit odio vulputate dui nostra molestie luctus."
+        "Conception, suivi projet et déploiement d'une application mobile de saisi des inventaires",
+        "Management des projets d'évolution de l'ERP avec les équipes métier ainsi que les équipes de développement"
       ]
     },
     {
-      "title": "Developpeur Fullstack - DEVEO",
-      "company": "Province Sud | DSIN - Nouméa",
-      "year": "Septembre 2018 - Juin 2019",
-      "description": "Projet BOOST",
-      "environments": [
-        {
-          "iconPack": "fab",
-          "icon": "angular",
-          "description": "ANGULAR 18, JSON, REST"
-        },
-        {
-          "iconPack": "fas",
-          "icon": "leaf",
-          "description": "SPRING BOOT 3, SPRING BATCH, JASPER"
-        },
-        {
-          "iconPack": "fab",
-          "icon": "github",
-          "description": "INTELIJ, GIT"
-        },
-        {
-          "iconPack": "fas",
-          "icon": "tasks",
-          "description": "AGILE SCRUM, JIRA"
-        }
-      ],
+      "title": "Product Owner - HARDIS GROUP",
+      "company": "? - Grenoble",
+      "year": "Mai 2022 - Mai 2023",
+      "description": "",
+      "environments": [],
       "tasks": [
-        "Cubilia a hac purus duis lacinia quis.",
-        "Est sapien nisi tristique blandit justo integer vestibulum sit felis eu.",
-        "Ultrices magnis nostra justo mi convallis aliquam.",
-        "Laoreet curabitur massa litora blandit odio vulputate dui nostra molestie luctus."
+        "Compréhension et analyse des besoins fonctionnels des utilisateurs métier",
+        "Conception détaillée avec prise en compte des contraintes techniques et d'ergonomie",
+        "Désign d'écrans opérationnels et de paramétrage",
+        "Rédaction des tests d'acceptance",
+        "Suivi/animation projets avec les équipes de développement"
       ]
     },
     {
-      "title": "Developpeur Fullstack - DEVEO",
-      "company": "Province Sud | DSIN - Nouméa",
-      "year": "Septembre 2018 - Juin 2019",
-      "description": "Projet BOOST",
-      "environments": [
-        {
-          "iconPack": "fab",
-          "icon": "angular",
-          "description": "ANGULAR 18, JSON, REST"
-        },
-        {
-          "iconPack": "fas",
-          "icon": "leaf",
-          "description": "SPRING BOOT 3, SPRING BATCH, JASPER"
-        },
-        {
-          "iconPack": "fab",
-          "icon": "github",
-          "description": "INTELIJ, GIT"
-        },
-        {
-          "iconPack": "fas",
-          "icon": "tasks",
-          "description": "AGILE SCRUM, JIRA"
-        }
-      ],
+      "title": "Responsable Fret et Transport - SOCALOG",
+      "company": "SOCALOG - Nouméa",
+      "year": "Février 2020 - Février 2021",
+      "description": "",
+      "environments": [],
       "tasks": [
-        "Cubilia a hac purus duis lacinia quis.",
-        "Est sapien nisi tristique blandit justo integer vestibulum sit felis eu.",
-        "Ultrices magnis nostra justo mi convallis aliquam.",
-        "Laoreet curabitur massa litora blandit odio vulputate dui nostra molestie luctus."
+        "Management de l'équipe transport",
+        "Pilotage et suivi de la performance des prestataires",
+        "Gestion et coordination des prestataires de transport",
+        "Gestion de la facturation clients et transporteurs"
+      ]
+    },
+    {
+      "title": "Technicienne M2thode et Processus - SOCALOG",
+      "company": "SOCALOG - Nouméa",
+      "year": "Février 2020 - Février 2021",
+      "description": "",
+      "environments": [],
+      "tasks": [
+        "Paramétrage et optimisation du WMS Reflex en fonction des besoins et des problématiques terrain",
+        "Amélioration continue des processus",
+        "Déploiement de nouvelles procédures informatiques et formation des utilisateurs"
+      ]
+    },
+    {
+      "title": "Responsable Projet Supply Chain - ALTEN",
+      "company": "AIRBUS HELICOPTERS - Marignane",
+      "year": "Septembre 2018 - Décembre 2019",
+      "description": "",
+      "environments": [],
+      "tasks": [
+        "Paramétrage et optimisation du WMS Reflex en fonction des besoins et des problématiques terrain",
+        "Amélioration continue des processus",
+        "Déploiement de nouvelles procédures informatiques et formation des utilisateurs"
       ]
     }
   ],
   "educations": [
     {
-      "title": "DEA Informatique de l’image et du langage",
-      "studies": "INPT, Institut National Polytechnique de Toulouse - Toulouse - France",
-      "year": "2002 - 2004"
-    },
-    {
-      "title": "Ingénieur Informatique",
-      "studies": "Université d'ORAN - Oran - Algérie",
-      "year": "1999 - 2002"
+      "title": "Master Management Logistique et Stratégique",
+      "studies": "Université d'Aix-Marseille - Aix-Marseille - France",
+      "year": "2015 - 2018"
     }
   ],
   "interests": [
