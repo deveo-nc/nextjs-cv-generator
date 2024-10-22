@@ -2,27 +2,40 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 
-const baseUrl = 'http://localhost:3000'; // URL de base de ton site statique
-
-const cvs = [
-    '/profil/abdelkrim_rais/anonyme',
-    '/profil/david_brouste/anonyme',
-    '/profil/abdelkrim_rais',
-    '/profil/david_brouste'
-];
+const cvFolder = path.join(__dirname, 'public', 'data');
 
 (async () => {
+    const baseUrl = 'https://deveo-nc.github.io/nextjs-cv-generator';
+
+    const jsonFiles = fs.readdirSync(cvFolder).filter(file => file.endsWith('.json'));
+
+    if (jsonFiles.length === 0) {
+        console.log('Aucun fichier JSON trouvé.');
+        return;
+    }
+
+    const cvs = jsonFiles.map((jsonName) => jsonName.replace('.json', ''));
+
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
 
     for (const cv of cvs) {
-        const url = `${baseUrl}${cv}`;
+        let url = `${baseUrl}/profil/${cv}`;
+        console.log(url);
         await page.goto(url, { waitUntil: 'networkidle0' });
-        const pdfPath = path.join(__dirname, 'public/assets', `${cv.replace('/profil/', '').replace('/', '_')}.pdf`);
+        let pdfPath = path.join(__dirname, 'public/assets', `${cv.replace('/profil/', '').replace('/', '_')}.pdf`);
 
         // Création du PDF
-        await page.pdf({ path: pdfPath, format: 'A4', printBackground: true});
+        await page.pdf({ path: pdfPath, format: 'A4', printBackground: true });
+        console.log(`PDF exporté : ${pdfPath}`);
 
+        url += '/anonyme';
+        console.log(url);
+        await page.goto(url, { waitUntil: 'networkidle0' });
+        pdfPath = path.join(__dirname, 'public/assets', `${cv.replace('/profil/', '').replace('/', '_')}.pdf`);
+
+        // Création du PDF
+        await page.pdf({ path: pdfPath, format: 'A4', printBackground: true });
         console.log(`PDF exporté : ${pdfPath}`);
     }
 
