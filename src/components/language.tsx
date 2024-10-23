@@ -9,7 +9,7 @@ export default function Language({cv}: { cv: CVData }) {
                 <ul className="languages_content p-0 gap-1 grid list-none">
                     {cv.languages.map((lang, i) => {
                         return (
-                            <li key={i} className="languages_name flex justify-between mb-1">
+                            <li key={i} className="languages_name flex justify-between">
                                 <span className="languages_text inline-block">{lang.description}</span>
                                 <span className="languages_stars">
                    <FontAwesomeIcon className={lang.level < 1 ? "languages_stars_checked" : ""}

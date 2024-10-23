@@ -119,6 +119,7 @@ export default function Contact({cv, anonymize}: { cv: CVData, anonymize: boolea
                     <h1 className="home_title">
                         <span className="firstname">{cv.firstname}</span>
                         <b><span className="lastname"> {cv.lastname}</span></b>
+                        {anonymize && <span className="lastname font-bold"> {cv.anonyme_name}</span>}
                     </h1>
                     <h2 className="home_profession">{cv.profession}</h2>
                 </div>

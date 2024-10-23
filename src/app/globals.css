@@ -195,6 +195,13 @@ p {
     color: var(--title-color-left);
     margin-bottom: var(--margin-4);
   }
+
+  .languages {
+    padding-top: 0;
+    .section_title {
+      margin-bottom: 1rem;
+    }
+  }
 }
 
 .resume_right {
@@ -299,9 +306,9 @@ p {
 .experience_line {
   display: block;
   width: 2px;
-  height: 115%;
+  height: 125%;
   background-color: var(--text-color-light-right);
-  transform: translate(4.4px, -2px);
+  transform: translate(4.4px, 0px);
 }
 
 .education_title,
@@ -330,12 +337,27 @@ p {
   break-after: auto;
 }
 
-.skills_box {
-  background-color: var(--text-color-light-right);
+.skills_category_left_container {
+  color: var(--text-color-left);
+  left: -284px;
+  top: calc(50% - 11px);
+  width: 250px;
 }
 
-.skills_progress {
-  background-color: var(--container-color-left);
+.skills_category_right_container {
+  color: var(--text-color-right)
+}
+
+.right-separator:not(:last-child) {
+  border-bottom: var(--text-color-light-right) solid 1px;
+}
+
+.skills_sub_category_container {
+  font-size: var(--small-font-size);
+}
+
+.skills_sub_category {
+  min-width: 160px;
 }
 
 @keyframes grow {
@@ -345,6 +367,10 @@ p {
   to {
     width: 100%;  /* Replace 100% with the actual value dynamically if needed */
   }
+}
+
+.languages_text {
+  font-size: var(--normal-font-size);
 }
 
 .languages_stars {

@@ -1,8 +1,9 @@
 import {CVData} from "@/model/cv";
 
 export default function Education({cv}: { cv: CVData }) {
+    const padNumber = (10 - (cv.educations.length*4));
     return (
-        <section className="education section" id="education">
+        <section className="education section" style={{paddingBottom: padNumber+'rem'}} id="education">
             <h2 className="section_title">Formation</h2>
             <div className="education_container grid gap-6">
                 {cv.educations.map((education, i) => {

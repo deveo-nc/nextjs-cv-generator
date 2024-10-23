@@ -1,6 +1,7 @@
 {
   "lastname": "DELTOUR",
   "firstname": "Tiphaine",
+  "anonyme_name": "Consultant 8",
   "profil_path": "default.webp",
   "profession": "Gestion de projet MOA",
   "location": "98800 Nouméa",
@@ -9,72 +10,73 @@
   "phone": "+687 ?? ?? ??",
   "skills": [
     {
-      "name": "Gestion de projets",
-      "level": "100%"
+      "category": "METHODES & OUTILS",
+      "subCategories": [
+        {
+          "subCategory": "Intégration continue",
+          "description": "Jenkins, Hudson, SonarQube"
+        },
+        {
+          "subCategory": "Méthodologie",
+          "description": "UML"
+        }
+      ]
     },
     {
-      "name": "Pilotage de projets",
-      "level": "95%"
+      "category": "TECHNIQUES",
+      "subCategories": [
+        {
+          "subCategory": "Langages",
+          "description": "Java/JEE, JSP, HTML5, CSS3, Javascript, SQL"
+        },
+        {
+          "subCategory": "Frameworks",
+          "description": "Java/React, GWT, Wicket, Spring MVC, Hibernate, Spring Batch, Struts, Primefaces, iText, Ext-js, JUnit"
+        },
+        {
+          "subCategory": "Serveurs",
+          "description": "TomCat, JBoss, GlassFish, Weblogic Server, Jonas"
+        },
+        {
+          "subCategory": "Environnements",
+          "description": "IntelliJ, Eclipse, NetBeans, VS Code, Weblogic Workshop"
+        },
+        {
+          "subCategory": "Gestion de config",
+          "description": "Git, CVS, SVN, ClearCase"
+        }
+      ]
     },
     {
-      "name": "Analyse",
-      "level": "95%"
+      "category": "BASES DE DONNEES",
+      "subCategories": [
+        {
+          "subCategory": "SGBD",
+          "description": "Oracle 10g, MySQL, PostgreSQL, Elasticsearch, Couchbase, Amazon Redshift"
+        },
+        {
+          "subCategory": "Outils",
+          "description": "SQL Developer, SQLyog, Toad, DBeaver"
+        }
+      ]
     },
     {
-      "name": "Synthèse",
-      "level": "95%"
+      "category": "SOLUTIONS",
+      "subCategories": [
+        {
+          "subCategory": "EAI & B2BI",
+          "description": "BEA Weblogic integration 8.1 SP5"
+        }
+      ]
     },
     {
-      "name": "Jira",
-      "level": "85%"
-    },
-    {
-      "name": "Confluence",
-      "level": "85%"
-    },
-    {
-      "name": "Ecoute active",
-      "level": "90%"
-    },
-    {
-      "name": "Communication",
-      "level": "90%"
-    },
-    {
-      "name": "Rigueur",
-      "level": "70%"
-    },
-    {
-      "name": "Organisation",
-      "level": "80%"
-    },
-    {
-      "name": "Réactivité",
-      "level": "80%"
-    },
-    {
-      "name": "Adaptabilité",
-      "level": "80%"
-    },
-    {
-      "name": "Anthousiaste",
-      "level": "80%"
-    },
-    {
-      "name": "Proactive",
-      "level": "80%"
-    },
-    {
-      "name": "Sql",
-      "level": "80%"
-    },
-    {
-      "name": "Oracle",
-      "level": "80%"
-    },
-    {
-      "name": "SAP",
-      "level": "80%"
+      "category": "QUALITE",
+      "subCategories": [
+        {
+          "subCategory": "Outils de test",
+          "description": "Quality Center"
+        }
+      ]
     }
   ],
   "languages": [

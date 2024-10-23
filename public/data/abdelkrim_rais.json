@@ -1,6 +1,7 @@
 {
   "lastname": "RAIS",
   "firstname": "Abdelkrim",
+  "anonyme_name": "Consultant 2",
   "profil_path": "default.webp",
   "profession": "Ingénieur d'études et de développement",
   "location": "98800 Nouméa",
@@ -9,80 +10,73 @@
   "phone": "+687 52 69 91",
   "skills": [
     {
-      "name": "Javascript",
-      "level": "100%"
+      "category": "METHODES & OUTILS",
+      "subCategories": [
+        {
+          "subCategory": "Intégration continue",
+          "description": "Jenkins, Hudson, SonarQube"
+        },
+        {
+          "subCategory": "Méthodologie",
+          "description": "UML"
+        }
+      ]
     },
     {
-      "name": "Java",
-      "level": "100%"
+      "category": "TECHNIQUES",
+      "subCategories": [
+        {
+          "subCategory": "Langages",
+          "description": "Java/JEE, JSP, HTML5, CSS3, Javascript, SQL"
+        },
+        {
+          "subCategory": "Frameworks",
+          "description": "Java/React, GWT, Wicket, Spring MVC, Hibernate, Spring Batch, Struts, Primefaces, iText, Ext-js, JUnit"
+        },
+        {
+          "subCategory": "Serveurs",
+          "description": "TomCat, JBoss, GlassFish, Weblogic Server, Jonas"
+        },
+        {
+          "subCategory": "Environnements",
+          "description": "IntelliJ, Eclipse, NetBeans, VS Code, Weblogic Workshop"
+        },
+        {
+          "subCategory": "Gestion de config",
+          "description": "Git, CVS, SVN, ClearCase"
+        }
+      ]
     },
     {
-      "name": "Angular",
-      "level": "80%"
+      "category": "BASES DE DONNEES",
+      "subCategories": [
+        {
+          "subCategory": "SGBD",
+          "description": "Oracle 10g, MySQL, PostgreSQL, Elasticsearch, Couchbase, Amazon Redshift"
+        },
+        {
+          "subCategory": "Outils",
+          "description": "SQL Developer, SQLyog, Toad, DBeaver"
+        }
+      ]
     },
     {
-      "name": "HTML 5",
-      "level": "100%"
+      "category": "SOLUTIONS",
+      "subCategories": [
+        {
+          "subCategory": "EAI & B2BI",
+          "description": "BEA Weblogic integration 8.1 SP5"
+        }
+      ]
     },
     {
-      "name": "CSS 3",
-      "level": "70%"
-    },
-    {
-      "name": "Spring Boot",
-      "level": "100%"
-    },
-    {
-      "name": "PostgreSQL/Oracle",
-      "level": "100%"
-    },
-    {
-      "name": "ElasticSearch/Solr",
-      "level": "100%"
-    },
-    {
-      "name": "Github",
-      "level": "90%"
-    },
-    {
-      "name": "ExtJS",
-      "level": "90%"
-    },
-    {
-      "name": "Docker",
-      "level": "80%"
-    },
-    {
-      "name": "VueJS",
-      "level": "80%"
-    },
-    {
-      "name": "C/C++",
-      "level": "80%"
-    },
-    {
-      "name": "Docker",
-      "level": "80%"
-    },
-    {
-      "name": "Git/SVN",
-      "level": "80%"
-    },
-    {
-      "name": "Struts",
-      "level": "80%"
-    },
-    {
-      "name": "JPA/Hibernate",
-      "level": "80%"
-    },
-    {
-      "name": "UML",
-      "level": "80%"
-    },
-    {
-      "name": "JIRA/Confluence",
-      "level": "80%"
+      "category": "QUALITE",
+      "subCategories": [
+        {
+          "subCategory": "Outils de test",
+          "description": "Quality Center"
+        }
+      ]
     }
   ],
   "languages": [

@@ -2,8 +2,13 @@ import {IconName} from "@fortawesome/free-solid-svg-icons";
 
 // Skill Interface
 export interface Skill {
-    name: string;
-    level: string;
+    category: string;
+    subCategories: SubCategory[];
+}
+
+export interface SubCategory {
+    subCategory: string;
+    description: string;
 }
 
 // Language Interface
@@ -46,6 +51,7 @@ interface Interest {
 export interface CVData {
     lastname: string;
     firstname: string;
+    anonyme_name: string;
     profil_path: string;
     profession: string;
     location: string;
