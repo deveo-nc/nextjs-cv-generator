@@ -1,0 +1,22 @@
+.separator_line {
+    display: block;
+    width: 2px;
+    height: calc(100% + 1rem);
+    background-color: var(--color-separator);
+    transform: translate(4.4px, 0px);
+}
+
+.education_title {
+    font-size: var(--normal-font-size);
+    color: var(--text-color-right);
+}
+
+.education_studies {
+    font-size: var(--small-font-size);
+    color: var(--text-color-light-right);
+}
+
+.education_year {
+    font-size: var(--small-font-size);
+    /*color: var(--text-color-light-right);*/
+}

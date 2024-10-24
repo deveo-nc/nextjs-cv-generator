@@ -1,5 +1,5 @@
 import SelectCV from "@/components/select-cv";
-import Template from "@/components/template";
+import DefaultTemplate from "@/templates/default-template/default-template";
 import path from "path";
 import fs from "fs";
 import {CVData} from "@/model/cv";
@@ -44,7 +44,7 @@ export default function Home({cvSelected, anonymize}: {cvSelected: string|undefi
         <>
             <SelectCV cvFiles={files} selectedCV={selectedCV}></SelectCV>
             <main className="l-main bd-container ml-auto mr-auto min-w-[794px] max-w-[794px]">
-                <Template cv={cvData} anonymize={anonymize}></Template>
+                <DefaultTemplate cv={cvData} anonymize={anonymize}></DefaultTemplate>
             </main>
         </>
     );

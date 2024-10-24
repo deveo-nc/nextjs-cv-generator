@@ -1,0 +1,55 @@
+.separator_line {
+    display: block;
+    width: 2px;
+    height: calc(100% + 2rem);
+    background-color: var(--color-separator);
+    transform: translate(4.4px, 0px);
+}
+
+.experience_year {
+    font-size: var(--smaller-font-size);
+    font-weight: var(--font-semi-bold);
+}
+
+.experience_company {
+    font-size: var(--small-font-size);
+    color: var(--title-color-right);
+}
+
+.experience_description, .experience_tasks {
+    color: var(--text-color-light-right);
+    font-size: var(--small-font-size);
+}
+
+.experience_tasks {
+    padding-left: var(--margin-2);
+    list-style-type: disc;
+}
+
+.experience_content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.experience_content:not(:first-child) {
+    margin-top: 1.5rem;
+}
+
+.experience_title {
+    font-size: var(--medium-font-size);
+}
+
+.experience_content {
+    break-inside: avoid;
+    break-after: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.environment_container {
+    color: var(--text-color-left);
+    width: var(--side-bar-width);
+    left: -303px;
+    font-size: var(--small-font-size);
+    position: absolute;
+    padding: var(--margin-2-5) var(--margin-2) var(--margin-2-5) var(--margin-2);
+}

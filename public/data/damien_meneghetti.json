@@ -1,7 +1,7 @@
 {
   "lastname": "MENEGHETTI",
   "firstname": "Damien",
-  "anonyme_name": "Consultant 1",
+  "anonyme_name": "Profil 1",
   "profil_path": "default.webp",
   "profession": "Développeur Fullstack",
   "location": "11 Rue Albert 1er - 98800 Nouméa",
@@ -10,35 +10,73 @@
   "phone": "+687 95 91 12",
   "skills": [
     {
-      "category": "METHODES & OUTILS",
+      "category": "MÉTHODOLOGIES",
       "subCategories": [
         {
-          "subCategory": "Intégration continue",
-          "description": "Jenkins, Hudson, SonarQube"
-        },
-        {
-          "subCategory": "Méthodologie",
-          "description": "UML"
+          "subCategory": "Approche",
+          "description": "UML, AGILE SCRUM, TDD, DDD"
         }
       ]
     },
     {
-      "category": "TECHNIQUES",
+      "category": "LANGAGES",
       "subCategories": [
         {
-          "subCategory": "Langages",
-          "description": "Java/JEE, JSP, HTML5, CSS3, Javascript, SQL"
+          "subCategory": "Langages/Scripts Backend",
+          "description": "Java/JEE, Python, C, C++, Go, Kotlin, Swift, Node.js, Rust"
         },
         {
-          "subCategory": "Frameworks",
-          "description": "Java/React, GWT, Wicket, Spring MVC, Hibernate, Spring Batch, Struts, Primefaces, iText, Ext-js, JUnit"
+          "subCategory": "Langages/Script Web",
+          "description": "HTML5, CSS3, Javascript, Typescript, JSP, PHP"
         },
         {
-          "subCategory": "Serveurs",
-          "description": "TomCat, JBoss, GlassFish, Weblogic Server, Jonas"
+          "subCategory": "Langages Database",
+          "description": "SQL, PL/SQL"
+        }
+      ]
+    },
+    {
+      "category": "FRAMEWORKS ET BIBLIOTHÈQUES",
+      "subCategories": [
+        {
+          "subCategory": "Frameworks Backend",
+          "description": "Spring Boot, Spring Batch, Spring MVC, Grails, Quarkus, Hibernate, JPA, Struts"
         },
         {
-          "subCategory": "Environnements",
+          "subCategory": "Frameworks Frontend",
+          "description": "Angular, React, Vue.js, ExtJS, NextJS, GWT, Wicket"
+        },
+        {
+          "subCategory": "Frameworks UI/UX",
+          "description": "Material Design, Bootstrap, Tailwind CSS, PrimeNG, ShadCN, Ant, Radix"
+        }
+      ]
+    },
+    {
+      "category": "TECHNOLOGIES ET OUTILS",
+      "subCategories": [
+        {
+          "subCategory": "DevOps",
+          "description": "Docker, Kubernetes, Prometheus, Grafana, Github Actions, CircleCI, Jenkins, SonarQube, Hudson"
+        },
+        {
+          "subCategory": "Cloud",
+          "description": "AWS, Azure, Google Cloud, Cloudflare"
+        },
+        {
+          "subCategory": "Data Engineering",
+          "description": "Apache Kafka, Apache Flink, Hadoop, Spark, RedPanda Console, Airflow"
+        },
+        {
+          "subCategory": "Gestion des APIs",
+          "description": "Postman, Swagger, Apigee, OpenAPI, Bruno"
+        },
+        {
+          "subCategory": "Serveurs d'Application",
+          "description": "TomCat, JBoss, GlassFish, Weblogic Server, Jonas, Nginx"
+        },
+        {
+          "subCategory": "IDE",
           "description": "IntelliJ, Eclipse, NetBeans, VS Code, Weblogic Workshop"
         },
         {
@@ -51,30 +89,34 @@
       "category": "BASES DE DONNEES",
       "subCategories": [
         {
-          "subCategory": "SGBD",
-          "description": "Oracle 10g, MySQL, PostgreSQL, Elasticsearch, Couchbase, Amazon Redshift"
+          "subCategory": "SGBD et NoSQL",
+          "description": "Oracle 10g, MySQL, PostgreSQL, Elasticsearch, Couchbase, Amazon Redshift, MongoDB, DynamoDB"
         },
         {
           "subCategory": "Outils",
-          "description": "SQL Developer, SQLyog, Toad, DBeaver"
+          "description": "SQL Developer, SQLyog, Toad, DBeaver, Flyway, Liquibase"
         }
       ]
     },
     {
-      "category": "SOLUTIONS",
+      "category": "TESTS ET QUALITÉ",
+      "subCategories": [
+        {
+          "subCategory": "Tests automatisés",
+          "description": "JUnit, Jest, Karma, Jasmine, JMeter, Gatling, Selenium, Cypress, Quality Center, TestNG"
+        },
+        {
+          "subCategory": "Qualité",
+          "description": "SonarQube, ESLint, Prettier, Checkstyle"
+        }
+      ]
+    },
+    {
+      "category": "INTÉGRATION ET MIDDLEWARE",
       "subCategories": [
         {
           "subCategory": "EAI & B2BI",
           "description": "BEA Weblogic integration 8.1 SP5"
-        }
-      ]
-    },
-    {
-      "category": "QUALITE",
-      "subCategories": [
-        {
-          "subCategory": "Outils de test",
-          "description": "Quality Center"
         }
       ]
     }

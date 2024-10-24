@@ -1,29 +1,30 @@
 import {CVData} from "@/model/cv";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import styles from "./experience.module.css";
 
 export default function Experience({cv}: {cv:CVData}) {
     return (
-        <section className="experience section relative" id="experience">
+        <section className={`section relative`} id="experience">
             <h2 className="section_title">Experiences</h2>
-            <h2 className="environment_title absolute top-0 pt-6 uppercase text-center tracking-[.35rem]">Environment</h2>
-            <div className="experience_container grid gap-4">
+            <h2 className="sidebar_title">Environment</h2>
+            <div className="grid gap-4">
                 {cv.experiences.map((experience, i) => {
                     const isLastItem = i === cv.experiences.length - 1;
                     return (
-                        <div key={i} className="experience_content flex">
-                            <div className="experience_time pr-2">
-                                <span className="experience_rounder"></span>
-                                {!isLastItem && <span className="experience_line"></span>}
+                        <div key={i} className={`${styles.experience_content} flex`}>
+                            <div className="pr-2">
+                                <span className="separator_rounder"></span>
+                                {!isLastItem && <span className={styles.separator_line}></span>}
                             </div>
-                            <div className="experience_data grid gap-1 relative w-full">
-                                <h3 className="experience_title">{experience.title}</h3>
+                            <div className="grid gap-1 relative w-full">
+                                <h3 className={`${styles.experience_title}`}>{experience.title}</h3>
                                 <div className='flex justify-between'>
-                                    <span className="experience_company">{experience.company}</span>
-                                    <span className="experience_year font-bold">{experience.year}</span>
+                                    <span className={`${styles.experience_company}`}>{experience.company}</span>
+                                    <span className={`${styles.experience_year}`}>{experience.year}</span>
                                 </div>
                                 {
                                     experience.environments && (
-                                        <div className="environment_container absolute top-5 px-4">
+                                        <div className={styles.environment_container}>
                                             {
                                                 typeof experience.environments === 'string' &&
                                                 <p>{experience.environments}</p>
@@ -39,9 +40,9 @@ export default function Experience({cv}: {cv:CVData}) {
                                         </div>
                                     )
                                 }
-                                <p className="experience_description">{experience.description}</p>
+                                <p className={styles.experience_description}>{experience.description}</p>
                                 {(experience.tasks?.length ?? 0) > 0 &&
-                                    <ul className="experience_tasks pl-4 list-disc">
+                                    <ul className={styles.experience_tasks}>
                                         {experience.tasks.map((task, index) => {
                                             return (
                                                 <li key={index}>{task}</li>

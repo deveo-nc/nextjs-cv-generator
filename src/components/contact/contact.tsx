@@ -6,7 +6,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faDownload, faEnvelope, faLocation, faMoon, faPhone, faSun} from "@fortawesome/free-solid-svg-icons";
 import {useEffect, useState} from "react";
 import usePrintStyles from "@/hooks/Print";
-import NextConfig from '@/../next.config.mjs';
+import NextConfig from '../../../next.config.mjs';
+import styles from "./contact.module.css";
 
 export default function Contact({cv, anonymize}: { cv: CVData, anonymize: boolean }) {
     const PAGE_HEIGHT = 1122;
@@ -101,44 +102,44 @@ export default function Contact({cv, anonymize}: { cv: CVData, anonymize: boolea
         <section className="relative" id="home">
             <div className="section grid gap-6">
                 <div className="text-center grid gap-2">
-                    <div className="profil_img_container home_img"
+                    <div className={styles.home_img}
                          style={{position: 'relative', display: 'inline-block'}}>
                         <Image src={ NextConfig.basePath + '/assets/profil_mask.svg'}
                                className="absolute left-0 top-0"
-                               alt="icon mask" id="home-mask"
+                               alt="icon mask" id={styles.home_mask}
                                width={150} height={150} style={{
                             left: maskProps.left,
                             top: maskProps.top
                         }}></Image>
-                        <div className="hexagon relative overflow-hidden">
+                        <div className={styles.hexagon}>
                             <Image src={NextConfig.basePath + '/pictures/' + cv.profil_path} className="hover:scale-110"
                                    alt="Icon picture" id="home-img"
                                    width={150} height={150}></Image>
                         </div>
                     </div>
-                    <h1 className="home_title">
-                        <span className="firstname">{cv.firstname}</span>
-                        <b><span className="lastname"> {cv.lastname}</span></b>
-                        {anonymize && <span className="lastname font-bold"> {cv.anonyme_name}</span>}
+                    <h1>
+                        <span>{cv.firstname}</span>
+                        <span className="font-bold"> {cv.lastname}</span>
+                        {anonymize && <span className={styles.consultant_anonyme}> {cv.anonyme_name}</span>}
                     </h1>
-                    <h2 className="home_profession">{cv.profession}</h2>
+                    <h2 className={styles.home_profession}>{cv.profession}</h2>
                 </div>
                 {!anonymize &&
                     <div className="home_address gap-3 grid">
                         <h2 className="section_title">Contact</h2>
-                        <span className="home_information flex items-center">
-                            <FontAwesomeIcon className="home_icon flex justify-center mr-3" icon={faLocation}>
+                        <span className={styles.home_information}>
+                            <FontAwesomeIcon className={styles.home_icon} icon={faLocation}>
                             </FontAwesomeIcon>{cv.location}
                         </span>
-                        <span className="home_information flex items-center">
-                            <a href={'mailto:' + cv.email} className="home_link no-underline inline-flex items-center">
-                                <FontAwesomeIcon className="home_icon flex justify-center mr-3" icon={faEnvelope}>
+                        <span className={styles.home_information}>
+                            <a href={'mailto:' + cv.email} className={styles.home_link}>
+                                <FontAwesomeIcon className={styles.home_icon} icon={faEnvelope}>
                                 </FontAwesomeIcon>{cv.email}
                             </a>
                         </span>
-                        <span className="home_information flex items-center">
-                            <a href={'tel:' + cv.phoneWithIndicator} className="home_link no-underline inline-flex items-center" >
-                                <FontAwesomeIcon className="home_icon flex justify-center mr-3" icon={faPhone}>
+                        <span className={styles.home_information}>
+                            <a href={'tel:' + cv.phoneWithIndicator} className={styles.home_link} >
+                                <FontAwesomeIcon className={styles.home_icon} icon={faPhone}>
                                 </FontAwesomeIcon>{cv.phone}
                             </a>
                         </span>
@@ -146,7 +147,7 @@ export default function Contact({cv, anonymize}: { cv: CVData, anonymize: boolea
                 }
             </div>
 
-            <button onClick={() => handleExportPDF()} className="generate-pdf no-print hover:animate-bounce
+            <button onClick={() => handleExportPDF()} className="no-print hover:animate-bounce
             inline-block absolute left-0 top-8 cursor-pointer text-xl"
                     title="Generate PDF"
                     id="resume-button">

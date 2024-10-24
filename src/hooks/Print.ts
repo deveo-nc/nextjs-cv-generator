@@ -7,10 +7,14 @@ const usePrintStyles = () => {
             document.body.classList.add('print');
             const areaCv = document.getElementById('area-cv');
             console.log('area offsetHeight', areaCv?.offsetHeight);
-            if (!areaCv) return;
-
-            const cvHeight = areaCv.offsetHeight ?? 1123;
-            const newHeight = Math.ceil(cvHeight / PAGE_HEIGHT) * PAGE_HEIGHT; // Arrondir au multiple supérieur de PAGE_HEIGHT
+            if (!areaCv) {
+                return;
+            }
+            console.log('area offsetHeight', areaCv?.offsetHeight);
+            const cvHeight = areaCv.offsetHeight ?? PAGE_HEIGHT;
+            const newHeight = Math.ceil(cvHeight / 1000) * PAGE_HEIGHT; // Arrondir au multiple supérieur de PAGE_HEIGHT
+            console.log('cvHeight', cvHeight)
+            console.log('newHeight', newHeight)
             areaCv.style.height = `${newHeight}px`; // Appliquer la nouvelle hauteur
         };
 

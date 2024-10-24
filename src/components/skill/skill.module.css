@@ -1,0 +1,35 @@
+.skills_category_left_container {
+    color: var(--text-color-left);
+    left: -284px;
+    top: calc(50% - 11px);
+    width: var(--side-bar-width);
+    position: absolute;
+    padding-left: var(--margin-2-5);
+    padding-right: var(--margin-2-5);
+    font-size: var(--normal-font-size);
+}
+
+.skills_category_right_container {
+    color: var(--text-color-right);
+    width: 100%;
+    padding-top: var(--margin-1);
+    padding-bottom: var(--margin-1);
+}
+
+.right-separator:not(:last-child) {
+    border-bottom: var(--color-separator) solid 1px;
+}
+
+.skills_sub_category_container {
+    font-size: var(--small-font-size);
+    display: flex;
+}
+
+.skills_sub_category {
+    min-width: 160px;
+    font-weight: var(--font-semi-bold);
+}
+
+.skills_description {
+    color: var(--text-color-light-right);
+}

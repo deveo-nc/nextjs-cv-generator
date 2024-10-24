@@ -1,0 +1,13 @@
+.languages_text {
+    font-size: var(--normal-font-size);
+    display: inline-block;
+}
+
+.languages_stars {
+    position: initial;
+    min-width: 85px;
+}
+
+.languages_stars_checked {
+    color: var(--text-color-light-left);
+}

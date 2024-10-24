@@ -1,0 +1,28 @@
+.resume {
+    grid-template-columns: .5fr 1fr;
+    background-color: var(--container-color-right);
+    box-shadow: 0 0 8px rgba(13, 12, 12, .15);
+    overflow: hidden;
+    display: grid;
+}
+
+.resume_left {
+    background-color: var(--container-color-left);
+    color: var(--text-color-left);
+    width: var(--side-bar-width);
+    padding: 0 1.25rem 0 1.25rem;
+
+    .section_title {
+        color: var(--title-color-left);
+        margin-bottom: var(--margin-4);
+    }
+}
+
+.resume_right {
+    padding: 0 1.25rem 0 1.25rem;
+    width: 100%;
+    .section_title {
+        color: var(--title-color-right);
+        margin-bottom: var(--margin-3);
+    }
+}

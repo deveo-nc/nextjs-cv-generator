@@ -1,0 +1,53 @@
+.home_img {
+    justify-self: center;
+    margin-bottom: var(--margin-1);
+    width: 150px;
+    height: 150px;
+}
+
+.hexagon {
+    clip-path: polygon(50% 0%, 92% 25%, 92% 75%, 50% 100%, 8% 75%, 8% 25%);
+    position: relative;
+    overflow: hidden;
+}
+
+.home_profession {
+    font-size: var(--x-large-font-size);
+}
+
+.section_title {
+    margin-bottom: var(--margin-2);
+    margin-top: var(--margin-2);
+}
+
+.home_information {
+    font-size: var(--small-font-size);
+    display: flex;
+    align-items: center;
+}
+
+.home_icon {
+    font-size: var(--medium-font-size);
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    margin-right: var(--margin-1-5);
+}
+
+#home_mask {
+    transition: left 2s ease, top 2s ease;
+    left: -61px;
+}
+
+.home_link {
+    font-size: var(--small-font-size);
+    color: var(--text-color-left);
+    text-decoration-line: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.consultant_anonyme {
+    font-size: var(--x-large-font-size);
+    font-weight: var(--font-semi-bold);
+}
